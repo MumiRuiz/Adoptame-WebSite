@@ -1,0 +1,37 @@
+<h1>Listing institutions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Password</th>
+      <th>Location</th>
+      <th>Website</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @institutions.each do |institution| %>
+      <tr>
+        <td><%= institution.name %></td>
+        <td><%= institution.username %></td>
+        <td><%= institution.email %></td>
+        <td><%= institution.password %></td>
+        <td><%= institution.location %></td>
+        <td><%= institution.website %></td>
+        <td><%= link_to 'Show', institution %></td>
+        <td><%= link_to 'Edit', edit_institution_path(institution) %></td>
+        <td><%= link_to 'Destroy', institution, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Institution', new_institution_path %>

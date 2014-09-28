@@ -1,0 +1,110 @@
+<!-- Page Heading -->
+      <section class="page-heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+             <h1>Regístrate</h1>
+            </div>
+            <div class="col-md-6">
+              <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Pets</a></li>
+                <li class="active">Ingresar nueva Macota</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Heading / End -->
+
+      <section class="page-content">
+        <div class="container">
+          
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+              
+              <fieldset>
+                  <label>Have an account?</label>
+                  <div class="field account-sign-in">
+                    <p>
+                      <a class="btn btn-primary btn-sm" href="#"><i class="fa fa-key"></i> Sign in</a>
+                    </p>
+
+                    <div class="alert alert-info alert-dismissable">
+                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true"><i class="fa fa-times"></i></button>
+                      If you don‘t have an account you can create one below by entering your email address. A password will be  automatically emailed to you.
+                    </div>
+                  </div>
+                </fieldset>
+
+                <fieldset>
+                  <label>Nombre <span class="required">*</span></label>
+                  <div>
+                   <%= f.text_field :name, class: "form-control"%>
+                  </div>
+                </fieldset>
+
+                <fieldset>
+                  <label>Your Email <span class="required">*</span></label>
+                  <div>
+                  <%= f.text_field :email, class: "form-control"%>
+                  </div>
+                </fieldset>
+
+                <fieldset class="fieldset-job_type">
+                      <label>País<span class="required">*</span></label>
+                      <div class="field select-style">
+                        <select name="job_type" id="job_type" class="form-control">
+                          <option value="unspecified">Unspecified</option>
+                          <option value="pet-sitter">Pet Sitter</option>
+                          <option value="dog-sitter">Dog Sitter</option>
+                          <option value="cat-sitter">Cat Sitter</option>
+                          <option value="dog-walker">Dog Walker</option>
+                        </select>
+                      </div>
+                    </fieldset>
+
+                <fieldset>
+                  <label>Password <span class="required">*</span></label>
+                  <div>
+                 <%= f.password_field :password, autocomplete: "off", class: "form-control" %></div>
+                </fieldset>
+
+                <fieldset>
+                  <label>Password Confirmation <span class="required">*</span></label>
+                  <div>
+                 <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" %></div>
+                  
+                </fieldset>
+
+                  <div class="field account-sign-in">
+                    <p>
+                      <i class="fa fa-key"></i>
+
+                      <%= f.submit "Sign up", class: 'btn btn-primary btn-sm' %>
+
+                    </p>
+
+                    
+                  </div>
+
+              <% end %>
+
+              <%= render "devise/shared/links" %>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- Page Content / End -->
+
+
+
+
+
+
