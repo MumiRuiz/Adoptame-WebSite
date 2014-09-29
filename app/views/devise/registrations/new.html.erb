@@ -7,9 +7,9 @@
             </div>
             <div class="col-md-6">
               <ul class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Pets</a></li>
-                <li class="active">Ingresar nueva Macota</li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Mascotas</a></li>
+                <li class="active">Ingresar nueva Mascota</li>
               </ul>
             </div>
           </div>
@@ -28,15 +28,15 @@
   <%= devise_error_messages! %>
               
               <fieldset>
-                  <label>Have an account?</label>
+                  <label>¿Tienes una cuenta?</label>
                   <div class="field account-sign-in">
                     <p>
-                      <a class="btn btn-primary btn-sm" href="#"><i class="fa fa-key"></i> Sign in</a>
+                      <a class="btn btn-primary btn-sm" href="#"><i class="fa fa-key"></i> Inicia Sesión</a>
                     </p>
 
                     <div class="alert alert-info alert-dismissable">
                       <button type="button" class="close" data-dismiss="alert" aria-hidden="true"><i class="fa fa-times"></i></button>
-                      If you don‘t have an account you can create one below by entering your email address. A password will be  automatically emailed to you.
+                      Si aún no tiene una cuenta, puede crearla abajo diligenciando los campos requeridos. La contraseña será enviada automáticamente a su correo electrónico.
                     </div>
                   </div>
                 </fieldset>
@@ -49,7 +49,7 @@
                 </fieldset>
 
                 <fieldset>
-                  <label>Your Email <span class="required">*</span></label>
+                  <label>Email <span class="required">*</span></label>
                   <div>
                   <%= f.text_field :email, class: "form-control"%>
                   </div>
@@ -59,23 +59,23 @@
                       <label>País<span class="required">*</span></label>
                       <div class="field select-style">
                         <select name="job_type" id="job_type" class="form-control">
-                          <option value="unspecified">Unspecified</option>
-                          <option value="pet-sitter">Pet Sitter</option>
-                          <option value="dog-sitter">Dog Sitter</option>
+                          <!-- <option value="Inespecificado">Inespecificado</option> -->
+                          <option value="Colombia">Colombia</option>
+                          <!-- <option value="dog-sitter">Dog Sitter</option>
                           <option value="cat-sitter">Cat Sitter</option>
-                          <option value="dog-walker">Dog Walker</option>
+                          <option value="dog-walker">Dog Walker</option> -->
                         </select>
                       </div>
                     </fieldset>
 
                 <fieldset>
-                  <label>Password <span class="required">*</span></label>
+                  <label>Contraseña<span class="required">*</span></label>
                   <div>
                  <%= f.password_field :password, autocomplete: "off", class: "form-control" %></div>
                 </fieldset>
 
                 <fieldset>
-                  <label>Password Confirmation <span class="required">*</span></label>
+                  <label>Confirmar Contraseña <span class="required">*</span></label>
                   <div>
                  <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" %></div>
                   
@@ -85,7 +85,7 @@
                     <p>
                       <i class="fa fa-key"></i>
 
-                      <%= f.submit "Sign up", class: 'btn btn-primary btn-sm' %>
+                      <%= f.submit "Registrarse", class: 'btn btn-primary btn-sm' %>
 
                     </p>
 
