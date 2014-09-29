@@ -1,6 +1,6 @@
 class PetsController < ApplicationController
   before_action :set_pet, only: [:show, :edit, :update, :destroy]
-  validates_attachment :avatar, :presence => true
+  validates_attachment :photo, :presence => true
 
   # GET /pets
   # GET /pets.json
