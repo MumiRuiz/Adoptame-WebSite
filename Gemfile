@@ -30,6 +30,14 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
+# BOOTSTRAP
+
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
+
+#IMAGE MAGICK / paperclip 
+gem 'paperclip'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
@@ -54,3 +62,4 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+

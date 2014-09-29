@@ -1,5 +1,6 @@
 class PetsController < ApplicationController
   before_action :set_pet, only: [:show, :edit, :update, :destroy]
+  validates_attachment :avatar, :presence => true
 
   # GET /pets
   # GET /pets.json
@@ -69,6 +70,6 @@ class PetsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def pet_params
-      params.require(:pet).permit(:name, :age, :kind, :gender, :size, :story, :city, :country, :region, :user_id, :institution_id)
+      params.require(:pet).permit(:name, :age, :kind, :gender, :size, :story, :city, :country, :region, :user_id, :institution_id, :photo)
     end
 end

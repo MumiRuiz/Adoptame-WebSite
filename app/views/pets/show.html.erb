@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<%= image_tag @user.avatar.url %>
+<%= image_tag @user.avatar.url(:medium) %>
+<%= image_tag @user.avatar.url(:thumb) %>
+
 <p>
   <strong>Name:</strong>
   <%= @pet.name %>
