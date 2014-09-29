@@ -3362,7 +3362,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
   overflow: hidden;
   position: fixed;
   background: #0b0b0b;
-  .opacity(0.8);
+  opacity: 0.8;
 }
 
 .mfp-wrap {
