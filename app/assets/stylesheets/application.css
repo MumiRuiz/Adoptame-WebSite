@@ -8,15 +8,19 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
-  *= require theme
- *= require bootstrap.min
-*= require owl.carousel
-*= require owl.theme
-*= require magnific-popup
-*= require flexslider
+	*= require_self
+	
+	*= require bootstrap.min
+	*= require font-awesome
+	*= require entypo
+	*= require owl.carousel
+	*= require owl.theme
+	*= require magnific-popup
+	*= require flexslider
+	*= require theme
+	*= require theme-elements
+	*= require animate.min
 
-*= require animate.min
-
- *= require_tree .
+	*= require_tree .
  */
+
