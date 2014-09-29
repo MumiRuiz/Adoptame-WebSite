@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require jquery-1.11.0.min
 //= require jquery-migrate-1.2.1.min
+//= require modernizr
 //= require bootstrap
 //= require jquery.flexnav.min
 //= require jquery.hoverIntent.minified
