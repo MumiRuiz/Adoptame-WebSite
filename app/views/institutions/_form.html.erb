@@ -43,13 +43,15 @@
   
    <div class="field">
     <%= f.label :country, "País" %><br>
-    <%= select_tag(:country, options_for_select(['Colombia', 'Colombia'])) %>
+    <select name="institution[country]">
+    <option value = "Colombia">Colombia</option>
+   </select>
   </div>
 <br>
 
   <div class="field">
     <%= f.label :region, "Región" %><br>
-    <select>
+    <select name="institution[region]">
       <option value = "Amazonas">Amazonas</option>
       <option value = "Antioquia">Antioquia</option>
       <option value = "Arauca">Arauca</option>
@@ -88,7 +90,7 @@
 
   <div class="field">
     <%= f.label :city, "Ciudad" %><br>
-    <select>
+    <select name="institution[city]">
       <option value = "Arauca">Arauca</option>
       <option value = "Armenia">Armenia</option>
       <option value = "Barranquilla">Barranquilla</option>

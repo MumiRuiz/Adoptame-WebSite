@@ -31,8 +31,8 @@
 
  <div class="field">
     <%= f.label :age, "Tipo" %><br>
-    <input type="radio" name="age" value="dog">Perro<br>
-    <input type="radio" name="age" value="cat">Gato
+    <input type="radio" name="kind" value="dog">Perro<br>
+    <input type="radio" name="kind" value="cat">Gato
   </div>
 <br>
 
@@ -54,15 +54,15 @@
 
   <div class="field">
     <%= f.label :country, "País" %><br>
-   <select>
+   <select name="pet[country]">
     <option value = "Colombia">Colombia</option>
    </select>
   </div>
-<br> -->
+<br> 
 
   <div class="field">
     <%= f.label :region, "Región" %><br>
-    <select>
+    <select name="pet[region]">
       <option value = "Amazonas">Amazonas</option>
       <option value = "Antioquia">Antioquia</option>
       <option value = "Arauca">Arauca</option>
@@ -101,7 +101,7 @@
 
   <div class="field">
     <%= f.label :city, "Ciudad" %><br>
-    <select>
+    <select name="pet[city]">
       <option value = "Arauca">Arauca</option>
       <option value = "Armenia">Armenia</option>
       <option value = "Barranquilla">Barranquilla</option>
