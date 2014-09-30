@@ -29,6 +29,13 @@
   <strong>Website:</strong>
   <%= @institution.website %>
 </p>
+<p>
+  <strong>País</strong>
+<%= @institution.country %>
+</p>
+
+  
+       
 
 <%= link_to 'Edit', edit_institution_path(@institution) %> |
 <%= link_to 'Back', institutions_path %>

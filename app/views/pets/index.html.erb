@@ -1,4 +1,51 @@
-<h1>Listing pets</h1>
+<!-- Main -->
+    <div class="main" role="main">
+
+    <section class="page-heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Mascotas</h1>
+            </div>
+            <div class="col-md-6">
+              <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Pages</a></li>
+                <li class="active">Team</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Heading / End -->
+<!-- Page Content -->
+      <section class="page-content">
+        <div class="container">
+  
+          <ul class="team-list row">
+            <% @pets.each do |pet| %>
+            <li class="team-item col-md-3">
+              <div class="team-item-inner">
+                <figure class="team-thumb">
+                  <img src="http://placehold.it/288x268" alt="">
+                
+                  <div class="overlay"></div>
+                
+                </figure>
+
+                <header class="team-head">
+                  <h5 class="team-name"><%= pet.name %></h5>
+                  <span class="team-head-info"></span>
+                </header>
+                <div class="team-excerpt">
+                 
+                </div>
+              </div>
+            </li>
+                <% end %>
+
+          </ul>
+
 
 <table>
   <thead>
@@ -40,6 +87,12 @@
     <% end %>
   </tbody>
 </table>
+
+          </div>
+      </section>
+
+
+
 
 <br>
 
