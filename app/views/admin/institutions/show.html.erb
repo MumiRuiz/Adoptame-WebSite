@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @admin_institution.name %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @admin_institution.username %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @admin_institution.email %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @admin_institution.password %>
+</p>
+
+<p>
+  <strong>Manager:</strong>
+  <%= @admin_institution.manager %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @admin_institution.country %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @admin_institution.region %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @admin_institution.city %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @admin_institution.website %>
+</p>
+
+<%= link_to 'Edit', edit_admin_institution_path(@admin_institution) %> |
+<%= link_to 'Back', admin_institutions_path %>

@@ -66,13 +66,13 @@
                 <a href="#">
                   <img src="http://placehold.it/58x58" alt="" class="company_logo">
                   <div class="position">
-                    <h3>Debbie Bidart</h3>
+                    <h3><%= institution.name %></h3>
                     <div class="company">
-                      <strong>Pet Sitter</strong>
+                      <strong><%= institution.website %></strong>
                     </div>
                   </div>
                   <div class="location">
-                    <i class="fa fa-map-marker"></i> Melbourne, AU
+                    <i class="fa fa-map-marker"></i> <%= institution.city %>
                   </div>
                   <ul class="meta">
                     <li class="date">
@@ -139,6 +139,6 @@
   </tbody>
 </table>
 
-<br>
+
 
 <%= link_to 'Nueva Institución', new_institution_path %>
