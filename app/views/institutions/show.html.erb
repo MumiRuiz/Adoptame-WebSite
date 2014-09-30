@@ -6,7 +6,7 @@
 </p>
 
 <p>
-  <strong>Username:</strong>
+  <strong>Usuario:</strong>
   <%= @institution.username %>
 </p>
 
@@ -21,8 +21,15 @@
 </p>
 
 <p>
-  <strong>Location:</strong>
-  <%= @institution.location %>
+  <strong>Ubicación:</strong>
+  <%= @institution.country %>
+  <%= @institution.region %>
+  <%= @institution.city %>
+</p>
+
+<p>
+  <strong>Representante Legal:</strong>
+  <%= @institution.manager %>
 </p>
 
 <p>

@@ -1,20 +1,24 @@
 <%= form_for(@pet) do |f| %>
   <% if @pet.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@pet.errors.count, "error") %> prohibited this pet from being saved:</h2>
+      <div id="error_explanation">
+          <h2><%= pluralize(@pet.errors.count, "error") %> prohibited this pet from being saved:</h2>
 
-      <ul>
-      <% @pet.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
+          <ul>
+            <% @pet.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+                <% end %>
+          </ul>
+      </div>
   <% end %>
+  
+
+ <%= f.file_field :photo %>
 
   <div class="field">
     <%= f.label :name, "Nombre" %><br>
     <%= f.text_field :name %>
   </div>
+<br>
 
   <div class="field">
     <%= f.label :age, "Edad" %><br>
@@ -23,7 +27,7 @@
     <input type="radio" name="age" value="years">Años
     <input type="radio" name="age" value="days">Días
   </div>
-  <br>
+<br>
 
   <div class="field">
     <%= f.label :kind, "Tipo" %><br>
@@ -40,7 +44,6 @@
         <input type="radio" name="sex" value="male">Macho<br>
         <input type="radio" name="sex" value="female">Hembra
       </form>
-
   </div>
   <br>
 
@@ -61,10 +64,10 @@
     <option value = "Colombia">Colombia</option>
    </select>
   </div>
-<br>
+<br><!-- 
 
   <div class="field">
-    <%= f.label :region, "Región" %><br>
+    <%#= f.label :region, "Región" %><br>
     <select>
       <option value = "Amazonas">Amazonas</option>
       <option value = "Antioquia">Antioquia</option>
@@ -100,10 +103,10 @@
       <option value = "Vichada">Vichada</option>
     </select>
   </div>
-  <br>
+<br>
 
   <div class="field">
-    <%= f.label :city, "Ciudad" %><br>
+    <%#= f.label :city, "Ciudad" %><br>
     <select>
       <option value = "Arauca">Arauca</option>
       <option value = "Armenia">Armenia</option>
@@ -139,7 +142,7 @@
       <option value = "Yopal">Yopal</option>
     </select>
   </div>
-<br>
+<br> -->
  <!--  <div class="field">
     <%#= f.label :user_id %><br>
     <%#= f.text_field :user_id %>
