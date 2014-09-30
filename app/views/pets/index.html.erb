@@ -3,17 +3,16 @@
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Age</th>
-      <th>Kind</th>
-      <th>Gender</th>
-      <th>Size</th>
-      <th>Story</th>
-      <th>City</th>
-      <th>Country</th>
-      <th>Region</th>
-      <th>User</th>
-      <th>Institution</th>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Tipo</th>
+      <th>Género</th>
+      <th>Tamaño</th>
+      <th>Historia o Descripción</th>
+      <th>Pais</th>
+      <th>Región</th>
+      <th>Ciudad</th>
+      <th>Institución</th>
       <th></th>
       <th></th>
       <th></th>
@@ -34,9 +33,9 @@
         <td><%= pet.region %></td>
         <td><%= pet.user %></td>
         <td><%= pet.institution %></td>
-        <td><%= link_to 'Show', pet %></td>
-        <td><%= link_to 'Edit', edit_pet_path(pet) %></td>
-        <td><%= link_to 'Destroy', pet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Mostrar', pet %></td>
+        <td><%= link_to 'Editar', edit_pet_path(pet) %></td>
+        <td><%= link_to 'Destruir', pet, method: :delete, data: { confirm: '¿Esta seguro?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -44,4 +43,4 @@
 
 <br>
 
-<%= link_to 'New Pet', new_pet_path %>
+<%= link_to 'Nueva Mascota', new_pet_path %>

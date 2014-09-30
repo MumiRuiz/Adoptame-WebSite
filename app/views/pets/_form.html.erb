@@ -12,50 +12,152 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
+    <%= f.label :name, "Nombre" %><br>
     <%= f.text_field :name %>
   </div>
+
   <div class="field">
-    <%= f.label :age %><br>
-    <%= f.text_field :age %>
+    <%= f.label :age, "Edad" %><br>
+    <input type="number" name="age" min="1" max="30">
+    <input type="radio" name="age" value="months">Meses
+    <input type="radio" name="age" value="years">Años
+    <input type="radio" name="age" value="days">Días
   </div>
+  <br>
+
   <div class="field">
-    <%= f.label :kind %><br>
-    <%= f.text_field :kind %>
+    <%= f.label :kind, "Tipo" %><br>
+      <form action="">
+        <input type="radio" name="kind" value="male">Perro<br>
+        <input type="radio" name="kind" value="female">Gato
+      </form>
   </div>
+<br>
+
   <div class="field">
-    <%= f.label :gender %><br>
-    <%= f.text_field :gender %>
+    <%= f.label :gender, "Género" %><br>
+      <form action="sex">
+        <input type="radio" name="sex" value="male">Macho<br>
+        <input type="radio" name="sex" value="female">Hembra
+      </form>
+
   </div>
+  <br>
+
   <div class="field">
-    <%= f.label :size %><br>
-    <%= f.text_field :size %>
+    <%= f.label :size, "Tamaño" %><br>
+      <form action="">
+        <input type="radio" name="size" value="male">Pequeño<br>
+        <input type="radio" name="size" value="female">Mediano<br>
+        <input type="radio" name="size" value="female">Grande<br>
+        <input type="radio" name="size" value="female">Extra Grande
+      </form>
+   </div>  
+<br>  
+
+  <div class="field">
+    <%= f.label :country, "País" %><br>
+   <select>
+    <option value = "Colombia">Colombia</option>
+   </select>
   </div>
+<br>
+
   <div class="field">
-    <%= f.label :story %><br>
-    <%= f.text_field :story %>
+    <%= f.label :region, "Región" %><br>
+    <select>
+      <option value = "Amazonas">Amazonas</option>
+      <option value = "Antioquia">Antioquia</option>
+      <option value = "Arauca">Arauca</option>
+      <option value = "Atlántico">Atlántico</option>
+      <option value = "Bolívar">Bolívar</option>
+      <option value = "Boyacá">Boyacá</option>
+      <option value = "Caldas">Caldas</option>
+      <option value = "Caquetá">Caquetá</option>
+      <option value = "Casanare">Casanare</option>
+      <option value = "Cauca">Cauca</option>
+      <option value = "Cesar">Cesar</option>
+      <option value = "Chocó">Chocó</option>
+      <option value = "Córdoba">Córdoba</option>
+      <option value = "Cundinamarca">Cundinamarca</option>
+      <option value = "Guainía">Guainía</option>
+      <option value = "Guaviare">Guaviare</option>
+      <option value = "Huila">Huila</option>
+      <option value = "La Guajira">La Guajira</option>
+      <option value = "Magdalena">Magdalena</option>
+      <option value = "Meta">Meta</option>
+      <option value = "Nariño">Nariño</option>
+      <option value = "Norte de Santander">Norte de Santander</option>
+      <option value = "Putumayo">Putumayo</option>
+      <option value = "Quindío">Quindío</option>
+      <option value = "Risaralda">Risaralda</option>
+      <option value = "San Andrés y Providencia">San Andrés y Providencia</option>
+      <option value = "Santander">Santander</option>
+      <option value = "Sucre">Sucre</option>
+      <option value = "Tolima">Tolima</option>
+      <option value = "Valle del Cauca">Valle del Cauca</option>
+      <option value = "Vaupés">Vaupés</option>
+      <option value = "Vichada">Vichada</option>
+    </select>
   </div>
+  <br>
+
   <div class="field">
-    <%= f.label :city %><br>
-    <%= f.text_field :city %>
+    <%= f.label :city, "Ciudad" %><br>
+    <select>
+      <option value = "Arauca">Arauca</option>
+      <option value = "Armenia">Armenia</option>
+      <option value = "Barranquilla">Barranquilla</option>
+      <option value = "Bogotá">Bogotá</option>
+      <option value = "Bucaramanga">Bucaramanga</option>
+      <option value = "Cali">Cali</option>
+      <option value = "Cartagena de Indias">Cartagena de Indias</option>
+      <option value = "Cucutá">Cucutá</option>
+      <option value = "Florencia">Florencia</option>
+      <option value = "Ibagué">Ibagué</option>
+      <option value = "Inírida">Inírida</option>
+      <option value = "Leticia">Leticia</option>
+      <option value = "Manizalez">Manizalez</option>
+      <option value = "Medellín">Medellín</option>
+      <option value = "Mitú">Mitú</option>
+      <option value = "Mocoa">Mocoa</option>
+      <option value = "Montería">Montería</option>
+      <option value = "Neiva">Neiva</option>
+      <option value = "Pasto">Pasto</option>
+      <option value = "Pereira">Pereira</option>
+      <option value = "Popayán">Popayán</option>
+      <option value = "Puerto Carreño">Puerto Carreño</option>
+      <option value = "Quibdó">Quibdó</option>
+      <option value = "Riohacha">Riohacha</option>
+      <option value = "San Andrés">San Andrés</option>
+      <option value = "San José del Guaviare">San José del Guaviare</option>
+      <option value = "Santa Marta">Santa Marta</option>
+      <option value = "Sincelejo">Sincelejo</option>
+      <option value = "Tunja">Tunja</option>
+      <option value = "Valledupar">Valledupar</option>
+      <option value = "Villavicencio">Villavicencio</option>
+      <option value = "Yopal">Yopal</option>
+    </select>
   </div>
+<br>
+ <!--  <div class="field">
+    <%#= f.label :user_id %><br>
+    <%#= f.text_field :user_id %>
+  </div> -->
+
   <div class="field">
-    <%= f.label :country %><br>
-    <%= f.text_field :country %>
-  </div>
-  <div class="field">
-    <%= f.label :region %><br>
-    <%= f.text_field :region %>
-  </div>
-  <div class="field">
-    <%= f.label :user_id %><br>
-    <%= f.text_field :user_id %>
-  </div>
-  <div class="field">
-    <%= f.label :institution_id %><br>
+    <%= f.label :institution_id, "Institución" %><br>
     <%= f.text_field :institution_id %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+
+
+  <div class="field">
+    <%= f.label :story, "Historia o Descripción" %><br>
+    <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea>
   </div>
+
+  <div class="actions">
+    <%= f.submit "Crear Mascota" %>
+  </div>
+
 <% end %>
