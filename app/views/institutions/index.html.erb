@@ -66,13 +66,13 @@
                 <a href="#">
                   <img src="http://placehold.it/58x58" alt="" class="company_logo">
                   <div class="position">
-                    <h3>Debbie Bidart</h3>
+                    <h3><%= institution.name %></h3>
                     <div class="company">
-                      <strong>Pet Sitter</strong>
+                      <strong><%= institution.website %></strong>
                     </div>
                   </div>
                   <div class="location">
-                    <i class="fa fa-map-marker"></i> Melbourne, AU
+                    <i class="fa fa-map-marker"></i> <%= institution.city %>
                   </div>
                   <ul class="meta">
                     <li class="date">
@@ -100,45 +100,7 @@
 
 
 
-<table>
-  <thead>
-    <tr>
-      <th>Nombre</th>
-      <th>Usuario</th>
-      <th>Email</th>
-      <th>Contraseña</th>
-      <th>Representante Legal</th>
-      <th>País</th>
-      <th>Región</th>
-      <th>Ciudad</th>
-      <th>Sitioweb</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @institutions.each do |institution| %>
-      <tr>
-        <td><%= institution.name %></td>
-        <td><%= institution.username %></td>
-        <td><%= institution.email %></td>
-        <td><%= institution.password %></td>
-        <td><%= institution.manager %></td>
-        <td><%= institution.country %></td>
-        <td><%= institution.region %></td>
-        <td><%= institution.city %></td> 
 
-        <td><%= institution.website %></td>
-        <td><%= link_to 'Mostrar', institution %></td>
-        <td><%= link_to 'Editar', edit_institution_path(institution) %></td>
-        <td><%= link_to 'Destruir', institution, method: :delete, data: { confirm: '¿Esta seguro?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
 
-<br>
 
-<%= link_to 'Nueva Institución', new_institution_path %>

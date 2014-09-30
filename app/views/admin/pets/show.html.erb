@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @admin_pet.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @admin_pet.age %>
+</p>
+
+<p>
+  <strong>Kind:</strong>
+  <%= @admin_pet.kind %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @admin_pet.gender %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @admin_pet.size %>
+</p>
+
+<p>
+  <strong>Story:</strong>
+  <%= @admin_pet.story %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @admin_pet.region %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @admin_pet.city %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @admin_pet.country %>
+</p>
+
+<p>
+  <strong>Institution:</strong>
+  <%= @admin_pet.institution %>
+</p>
+
+<%= link_to 'Edit', edit_admin_pet_path(@admin_pet) %> |
+<%= link_to 'Back', admin_pets_path %>

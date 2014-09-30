@@ -47,46 +47,7 @@
           </ul>
 
 
-<table>
-  <thead>
-    <tr>
-      <th>Nombre</th>
-      <th>Edad</th>
-      <th>Tipo</th>
-      <th>Género</th>
-      <th>Tamaño</th>
-      <th>Historia o Descripción</th>
-      <th>Pais</th>
-      <th>Región</th>
-      <th>Ciudad</th>
-      <th>Institución</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @pets.each do |pet| %>
-      <tr>
-        <td><%= pet.name %></td>
-        <td><%= pet.age %></td>
-        <td><%= pet.kind %></td>
-        <td><%= pet.gender %></td>
-        <td><%= pet.size %></td>
-        <td><%= pet.story %></td>
-        <td><%= pet.city %></td>
-        <td><%= pet.country %></td>
-        <td><%= pet.region %></td>
-        <td><%= pet.user %></td>
-        <td><%= pet.institution %></td>
-        <td><%= link_to 'Mostrar', pet %></td>
-        <td><%= link_to 'Editar', edit_pet_path(pet) %></td>
-        <td><%= link_to 'Destruir', pet, method: :delete, data: { confirm: '¿Esta seguro?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
 
           </div>
       </section>
@@ -96,4 +57,3 @@
 
 <br>
 
-<%= link_to 'Nueva Mascota', new_pet_path %>
