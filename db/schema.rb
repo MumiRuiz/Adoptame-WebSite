@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20140930012843) do
+=======
+ActiveRecord::Schema.define(version: 20140930022645) do
+>>>>>>> cae3331a1aad580deb2e1b0a520b9ea07b542b46
 
   create_table "institutions", force: true do |t|
     t.string   "name"
@@ -22,7 +26,13 @@ ActiveRecord::Schema.define(version: 20140930012843) do
     t.string   "website"
     t.datetime "created_at"
     t.datetime "updated_at"
+<<<<<<< HEAD
     t.string   "manager"
+=======
+    t.string   "country"
+    t.string   "region"
+    t.string   "city"
+>>>>>>> cae3331a1aad580deb2e1b0a520b9ea07b542b46
   end
 
   create_table "pets", force: true do |t|

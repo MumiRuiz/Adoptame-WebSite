@@ -43,9 +43,7 @@
   
    <div class="field">
     <%= f.label :country, "País" %><br>
-   <select>
-    <option value = "Colombia">Colombia</option>
-   </select>
+    <%= select_tag(:country, options_for_select(['Colombia', 'Colombia'])) %>
   </div>
 <br>
 
