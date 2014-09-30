@@ -62,6 +62,23 @@ class PetsController < ApplicationController
     end
   end
 
+def preview
+  @photo = Pet_photo.find(params[:id])
+   if @photo.contenttype == "image"          
+      img_orig = Magick::Image.read("/assets/images/"+@archive.filename).first
+      img = img_orig.resize_to_fit(200,200)
+     @response.headers["Content-type"] = img.mime_type
+      render :text => img.to_blob    
+   end
+end
+
+
+
+
+
+
+
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_pet
