@@ -1,8 +1,11 @@
 <p id="notice"><%= notice %></p>
 
-  <%= image_tag @pet.photo.url %>
+  <%= image_tag @pet.photo.url(:large) %>
+  <%= image_tag @pet.photo.url(:small) %>
   <%= image_tag @pet.photo.url(:medium) %>
   <%= image_tag @pet.photo.url(:thumb) %>
+
+
 
 <p>
   <strong>Nombre:</strong>
