@@ -11,60 +11,59 @@
       </div>
   <% end %>
   
-
- <div class="field">
-    <%= f.label :avatar %><br>
-    <%= f.file_field :avatar %>
+<div class="field">
+  <%= f.label :photo %><br />
+  <%= f.file_field :photo %>
 </div>
 
   <div class="field">
-    <%= f.label :name, "Nombre" %><br>
+    <%= f.label :name, "Nombre" %><br />
     <%= f.text_field :name %>
   </div>
-<br>
+<br />
 
   <div class="field">
-    <%= f.label :age, "Edad" %><br>
+    <%= f.label :age, "Edad" %><br />
     <input type="number" name="age" min="1" max="30">
     <input type="radio" name="age" value="months">Meses
     <input type="radio" name="age" value="years">Años
     <input type="radio" name="age" value="days">Días
   </div>
-<br>
+<br />
 
  <div class="field">
-    <%= f.label :age, "Tipo" %><br>
-    <input type="radio" name="kind" value="dog">Perro<br>
+    <%= f.label :age, "Tipo" %><br />
+    <input type="radio" name="kind" value="dog">Perro<br />
     <input type="radio" name="kind" value="cat">Gato
   </div>
-<br>
+<br />
 
   <div class="field">
-    <%= f.label :gender, "Género" %><br>
-        <input type="radio" name="sex" value="male">Macho<br>
+    <%= f.label :gender, "Género" %><br />
+        <input type="radio" name="sex" value="male">Macho<br />
         <input type="radio" name="sex" value="female">Hembra
   </div>
-  <br>
+  <br />
 
   <div class="field">
-    <%= f.label :size, "Tamaño" %><br>
-        <input type="radio" name="size" value="male">Pequeño<br>
-        <input type="radio" name="size" value="female">Mediano<br>
-        <input type="radio" name="size" value="female">Grande<br>
+    <%= f.label :size, "Tamaño" %><br />
+        <input type="radio" name="size" value="male">Pequeño<br />
+        <input type="radio" name="size" value="female">Mediano<br />
+        <input type="radio" name="size" value="female">Grande<br />
         <input type="radio" name="size" value="female">Extra Grande
    </div>  
-<br>  
+<br />  
 
   <div class="field">
-    <%= f.label :country, "País" %><br>
+    <%= f.label :country, "País" %><br />
    <select name="pet[country]">
     <option value = "Colombia">Colombia</option>
    </select>
   </div>
-<br> 
+<br />
 
   <div class="field">
-    <%= f.label :region, "Región" %><br>
+    <%= f.label :region, "Región" %><br />
     <select name="pet[region]">
       <option value = "Amazonas">Amazonas</option>
       <option value = "Antioquia">Antioquia</option>
@@ -100,10 +99,10 @@
       <option value = "Vichada">Vichada</option>
     </select>
   </div>
-<br>
+<br />
 
   <div class="field">
-    <%= f.label :city, "Ciudad" %><br>
+    <%= f.label :city, "Ciudad" %><br />
     <select name="pet[city]">
       <option value = "Arauca">Arauca</option>
       <option value = "Armenia">Armenia</option>
@@ -139,21 +138,21 @@
       <option value = "Yopal">Yopal</option>
     </select>
   </div>
-<br>
+<br />
 
  <!-- <div class="field">
-    <%= f.label :user_id %><br>
-    <%= f.text_field :user_id %>
+    <%#= f.label :user_id %><br>
+    <%#= f.text_field :user_id %>
   </div> -->
 
   <div class="field">
-    <%= f.label :institution_id, "Institución" %><br>
+    <%= f.label :institution_id, "Institución" %><br />
     <%= f.text_field :institution_id %>
   </div>
 
 
   <div class="field">
-    <%= f.label :story, "Historia o Descripción" %><br>
+    <%= f.label :story, "Historia o Descripción" %><br />
     <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea>
   </div>
 
