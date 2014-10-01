@@ -35,8 +35,9 @@ gem 'turbolinks'
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem "twitter-bootstrap-rails"
 
-#IMAGE MAGICK / paperclip 
+#IMAGE MAGICK / paperclip /aws-sdk for s3 amazon server
 gem 'paperclip'
+gem 'aws-sdk'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'

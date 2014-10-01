@@ -61,6 +61,16 @@ class InstitutionsController < ApplicationController
     end
   end
 
+  def preview
+  @logo = Intitution_logo.find(params[:id])
+   if @logo.contenttype == "image"          
+      img_orig = Magick::Image.read("/assets/images/"+@photo.filename).first
+      img = img_orig.resize_to_fit(200,200)
+     @response.headers["Content-type"] = img.mime_type
+      render :text => img.to_blob    
+   end
+end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_institution
@@ -69,6 +79,6 @@ class InstitutionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def institution_params
-      params.require(:institution).permit(:name, :username, :email, :password, :location, :website,:country,:region, :city)
+      params.require(:institution).permit(:name, :username, :email, :password, :location, :website,:country,:region, :city, :logo)
     end
 end

@@ -6327,3 +6327,3313 @@ ActionController::RoutingError (No route matches [POST] "/"):
   Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
   Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
   Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-01 13:02:25 -0500
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 17.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/img3.png" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/slider1_1121x600.png" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/slider3_1121x600.png" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/slider4_1121x600.png" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/img2.png" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/mcrteam60x60.png" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/diegoteam60x60.png" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 13:02:26 -0500
+
+
+Started GET "/pets/new" for 127.0.0.1 at 2014-10-01 13:02:32 -0500
+Processing by PetsController#new as HTML
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:5: syntax error, unexpected ':', expecting '}'
+...x671>", :medium => "320x290>" :small => "288x268>", :thumb =...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:5: syntax error, unexpected ',', expecting keyword_end
+...320x290>" :small => "288x268>", :thumb => "160x160>" }, :def...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:5: syntax error, unexpected '}', expecting keyword_end
+...8x268>", :thumb => "160x160>" }, :default_url => "/images/mi...
+...                               ^):
+  app/controllers/pets_controller.rb:18:in `new'
+
+
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/pets/" for 127.0.0.1 at 2014-10-01 13:03:41 -0500
+Processing by PetsController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:5: syntax error, unexpected ':', expecting '}'
+...x671>", :medium => "320x290>" :small => "288x268>", :thumb =...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:5: syntax error, unexpected ',', expecting keyword_end
+...320x290>" :small => "288x268>", :thumb => "160x160>" }, :def...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:5: syntax error, unexpected '}', expecting keyword_end
+...8x268>", :thumb => "160x160>" }, :default_url => "/images/mi...
+...                               ^):
+  app/controllers/pets_controller.rb:8:in `index'
+
+
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/pets/" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.3ms)[0m  [1mSELECT "pets".* FROM "pets"[0m
+  Rendered pets/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 29ms (Views: 24.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 13:04:46 -0500
+
+
+Started GET "/pets/images/favicon.ico" for 127.0.0.1 at 2014-10-01 13:04:47 -0500
+
+ActionController::RoutingError (No route matches [GET] "/pets/images/favicon.ico"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (30.2ms)
+
+
+Started GET "/pets/ew" for 127.0.0.1 at 2014-10-01 13:04:50 -0500
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"ew"}
+  [1m[35mPet Load (0.2ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "ew"]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Pet with id=ew):
+  app/controllers/pets_controller.rb:85:in `set_pet'
+
+
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/pets/new" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+Processing by PetsController#new as HTML
+  Rendered pets/_form.html.erb (2.7ms)
+  Rendered pets/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pets/new" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+Processing by PetsController#new as HTML
+  Rendered pets/_form.html.erb (2.3ms)
+  Rendered pets/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 13:04:55 -0500
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:04:59 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:05:00 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:05:00 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:05:00 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:05:00 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:05:00 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:05:00 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:05:00 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:05:00 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:05:00 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:05:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:05:00 -0500
+
+
+Started POST "/pets" for 127.0.0.1 at 2014-10-01 13:07:24 -0500
+Processing by PetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JstcxGTlBh2ufnpTN73Y6Q2svMijpSOY0I218mlx9tk=", "pet"=>{"photo"=>#<ActionDispatch::Http::UploadedFile:0x007fa7571e1d78 @tempfile=#<Tempfile:/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/RackMultipart20141001-2569-197xrys>, @original_filename="hanna.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pet[photo]\"; filename=\"hanna.jpg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Hanna", "country"=>"Colombia", "region"=>"Antioquia", "city"=>"Medellín", "institution_id"=>"ORCA"}, "age"=>"months", "kind"=>"dog", "sex"=>"female", "size"=>"female", "comments"=>"Esta hermosa perrita desde muy pequeña sufrió el abandono, Es muy juguetona, muy sociable con las personas y amigable con otros perros.", "commit"=>"Crear Mascota"}
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-cu7l5w.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]'
+Command :: convert '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]' -auto-orient -resize "708x671>" '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu3920141001-2569-19lzczp'
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu3920141001-2569-19lzczp'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]'
+Command :: convert '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]' -auto-orient -resize "320x290>" '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu3920141001-2569-wzzvfk'
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu3920141001-2569-wzzvfk'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]'
+Command :: convert '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]' -auto-orient -resize "288x268>" '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu3920141001-2569-dgbzh4'
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu3920141001-2569-dgbzh4'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]'
+Command :: convert '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu39.jpg[0]' -auto-orient -resize "160x160>" '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu3920141001-2569-v8i5gi'
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-qjuu3920141001-2569-v8i5gi'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1tx23fc.jpg'
+Binary data inserted for `string` type on column `photo_content_type`
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "pets" ("city", "country", "created_at", "institution_id", "name", "photo_content_type", "photo_file_name", "photo_file_size", "photo_updated_at", "region", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["city", "Medellín"], ["country", "Colombia"], ["created_at", Wed, 01 Oct 2014 18:07:24 UTC +00:00], ["institution_id", 0], ["name", "Hanna"], ["photo_content_type", "image/jpeg"], ["photo_file_name", "hanna.jpg"], ["photo_file_size", 736143], ["photo_updated_at", Wed, 01 Oct 2014 18:07:24 UTC +00:00], ["region", "Antioquia"], ["updated_at", Wed, 01 Oct 2014 18:07:24 UTC +00:00]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pets/10
+Completed 302 Found in 909ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/pets/10" for 127.0.0.1 at 2014-10-01 13:07:24 -0500
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mPet Load (0.1ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mInstitution Load (0.1ms)[0m  [1mSELECT "institutions".* FROM "institutions" WHERE "institutions"."id" = ? ORDER BY "institutions"."id" ASC LIMIT 1[0m  [["id", 0]]
+  Rendered pets/show.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 13:07:25 -0500
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:07:33 -0500
+
+
+Started GET "/pets/10" for 127.0.0.1 at 2014-10-01 13:49:04 -0500
+
+SyntaxError (/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/controllers/pets_controller.rb:70: syntax error, unexpected ->, expecting keyword_end
+      img.vignette(x, y, radius=0.0, sigma=10.0) -> image
+                                                   ^):
+  activesupport (4.0.2) lib/active_support/dependencies.rb:424:in `load'
+  activesupport (4.0.2) lib/active_support/dependencies.rb:424:in `block in load_file'
+  activesupport (4.0.2) lib/active_support/dependencies.rb:616:in `new_constants_in'
+  activesupport (4.0.2) lib/active_support/dependencies.rb:423:in `load_file'
+  activesupport (4.0.2) lib/active_support/dependencies.rb:324:in `require_or_load'
+  activesupport (4.0.2) lib/active_support/dependencies.rb:463:in `load_missing_constant'
+  activesupport (4.0.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.2) lib/active_support/dependencies.rb:535:in `get'
+  activesupport (4.0.2) lib/active_support/dependencies.rb:566:in `constantize'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4204288123557749255__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/pets/10" for 127.0.0.1 at 2014-10-01 13:49:35 -0500
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mPet Load (0.1ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mInstitution Load (0.1ms)[0m  [1mSELECT "institutions".* FROM "institutions" WHERE "institutions"."id" = ? ORDER BY "institutions"."id" ASC LIMIT 1[0m  [["id", 0]]
+  Rendered pets/show.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 35ms (Views: 19.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 13:49:36 -0500
+
+
+Started GET "/pets" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+Processing by PetsController#index as HTML
+  [1m[35mPet Load (0.2ms)[0m  SELECT "pets".* FROM "pets"
+  Rendered pets/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 13:49:56 -0500
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:50:08 -0500
+
+
+Started GET "/pets" for 127.0.0.1 at 2014-10-01 13:56:46 -0500
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.3ms)[0m  [1mSELECT "pets".* FROM "pets"[0m
+  Rendered pets/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 30ms (Views: 24.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 13:56:47 -0500
+
+
+Started GET "/pets/new" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+Processing by PetsController#new as HTML
+  Rendered pets/_form.html.erb (2.3ms)
+  Rendered pets/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/pets/new" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+Processing by PetsController#new as HTML
+  Rendered pets/_form.html.erb (2.0ms)
+  Rendered pets/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:51 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 13:56:52 -0500
+
+
+Started POST "/pets" for 127.0.0.1 at 2014-10-01 13:57:03 -0500
+Processing by PetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JstcxGTlBh2ufnpTN73Y6Q2svMijpSOY0I218mlx9tk=", "pet"=>{"photo"=>#<ActionDispatch::Http::UploadedFile:0x007fa7557ac4f8 @tempfile=#<Tempfile:/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/RackMultipart20141001-2569-urqm52>, @original_filename="hanna.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pet[photo]\"; filename=\"hanna.jpg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"", "country"=>"Colombia", "region"=>"Amazonas", "city"=>"Arauca", "institution_id"=>""}, "age"=>"", "comments"=>"", "commit"=>"Crear Mascota"}
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-151eock.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]'
+Command :: convert '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]' -auto-orient -resize "708x" -crop "708x671+0+136" +repage '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u56020141001-2569-ruxykc'
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u56020141001-2569-ruxykc'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]'
+Command :: convert '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]' -auto-orient -resize "320x" -crop "320x290+0+68" +repage '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u56020141001-2569-1m1003p'
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u56020141001-2569-1m1003p'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]'
+Command :: convert '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]' -auto-orient -resize "288x" -crop "288x268+0+58" +repage '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u56020141001-2569-yw2kh1'
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u56020141001-2569-yw2kh1'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]'
+Command :: convert '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u560.jpg[0]' -auto-orient -resize "160x" -crop "160x160+0+26" +repage '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u56020141001-2569-46ub4e'
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1f2u56020141001-2569-46ub4e'
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/300bf52dd231262bc2b99237e727246d20141001-2569-1hsh9fp.jpg'
+Binary data inserted for `string` type on column `photo_content_type`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "pets" ("city", "country", "created_at", "name", "photo_content_type", "photo_file_name", "photo_file_size", "photo_updated_at", "region", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["city", "Arauca"], ["country", "Colombia"], ["created_at", Wed, 01 Oct 2014 18:57:04 UTC +00:00], ["name", ""], ["photo_content_type", "image/jpeg"], ["photo_file_name", "hanna.jpg"], ["photo_file_size", 736143], ["photo_updated_at", Wed, 01 Oct 2014 18:57:03 UTC +00:00], ["region", "Amazonas"], ["updated_at", Wed, 01 Oct 2014 18:57:04 UTC +00:00]]
+  [1m[35m (2.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/pets/11
+Completed 302 Found in 895ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/pets/11" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mPet Load (0.2ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  Rendered pets/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:04 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 13:57:05 -0500
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 13:57:18 -0500
+
+
+Started GET "/pets/11" for 127.0.0.1 at 2014-10-01 14:05:31 -0500
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"11"}
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected ':', expecting keyword_end
+...content_type :photo, :presence:true, :size => { :in 0..10.me...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: Can't assign to true
+...nt_type :photo, :presence:true, :size => { :in 0..10.megabyt...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected =>, expecting :: or '[' or '.'
+...photo, :presence:true, :size => { :in 0..10.megabytes }, :co...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected tINTEGER, expecting =>
+...presence:true, :size => { :in 0..10.megabytes }, :content_ty...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected '}', expecting keyword_end
+...size => { :in 0..10.megabytes }, :content_type => /\Aimage\/...
+...                               ^):
+  app/controllers/pets_controller.rb:86:in `set_pet'
+
+
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/pets/11" for 127.0.0.1 at 2014-10-01 14:05:45 -0500
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"11"}
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected ':', expecting keyword_end
+...content_type :photo, :presence:true, :size => { :in 0..10.me...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: Can't assign to true
+...nt_type :photo, :presence:true, :size => { :in 0..10.megabyt...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected =>, expecting :: or '[' or '.'
+...photo, :presence:true, :size => { :in 0..10.megabytes }, :co...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected tINTEGER, expecting =>
+...presence:true, :size => { :in 0..10.megabytes }, :content_ty...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected '}', expecting keyword_end
+...size => { :in 0..10.megabytes }, :content_type => /\Aimage\/...
+...                               ^):
+  app/controllers/pets_controller.rb:86:in `set_pet'
+
+
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/pets/11" for 127.0.0.1 at 2014-10-01 14:05:46 -0500
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"11"}
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected ':', expecting keyword_end
+...content_type :photo, :presence:true, :size => { :in 0..10.me...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: Can't assign to true
+...nt_type :photo, :presence:true, :size => { :in 0..10.megabyt...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected =>, expecting :: or '[' or '.'
+...photo, :presence:true, :size => { :in 0..10.megabytes }, :co...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected tINTEGER, expecting =>
+...presence:true, :size => { :in 0..10.megabytes }, :content_ty...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected '}', expecting keyword_end
+...size => { :in 0..10.megabytes }, :content_type => /\Aimage\/...
+...                               ^):
+  app/controllers/pets_controller.rb:86:in `set_pet'
+
+
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/pets/11" for 127.0.0.1 at 2014-10-01 14:07:18 -0500
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"11"}
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected ':', expecting keyword_end
+...content_type :photo, :presence:true, :size => { :in => 0..10...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: Can't assign to true
+...nt_type :photo, :presence:true, :size => { :in => 0..10.mega...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected =>, expecting :: or '[' or '.'
+...photo, :presence:true, :size => { :in => 0..10.megabytes }, ...
+...                               ^
+/Users/MumiRuiz/Documents/WEBSITES/Adoptame-WebSite/app/models/pet.rb:6: syntax error, unexpected ',', expecting keyword_end
+... => { :in => 0..10.megabytes }, :content_type => /\Aimage\/....
+...                               ^):
+  app/controllers/pets_controller.rb:86:in `set_pet'
+
+
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/pets/11" for 127.0.0.1 at 2014-10-01 14:07:58 -0500
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mPet Load (0.1ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "11"]]
+  Rendered pets/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 31ms (Views: 16.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:58 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:58 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:58 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:58 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:58 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:58 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:58 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:58 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:58 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:58 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 14:07:59 -0500
+
+
+Started GET "/pets/new" for 127.0.0.1 at 2014-10-01 14:08:06 -0500
+Processing by PetsController#new as HTML
+  Rendered pets/_form.html.erb (11.1ms)
+  Rendered pets/new.html.erb within layouts/application (11.8ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `file' for #<ActionView::Helpers::FormBuilder:0x007fa75308af78>):
+    14: 
+    15:  <div class="field">
+    16:     <%= f.label :photo %><br>
+    17:     <%= f.file :photo %>
+    18: </div>
+    19: 
+    20:   <div class="field">
+  app/views/pets/_form.html.erb:17:in `block in _app_views_pets__form_html_erb___1086849842684571493_70178315518400'
+  app/views/pets/_form.html.erb:1:in `_app_views_pets__form_html_erb___1086849842684571493_70178315518400'
+  app/views/pets/new.html.erb:3:in `_app_views_pets_new_html_erb___758090752199924373_70178323748300'
+
+
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/pets/new" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+Processing by PetsController#new as HTML
+  Rendered pets/_form.html.erb (3.4ms)
+  Rendered pets/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:49 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 14:08:50 -0500
+
+
+Started POST "/pets" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+Processing by PetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JstcxGTlBh2ufnpTN73Y6Q2svMijpSOY0I218mlx9tk=", "pet"=>{"avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa75540fb10 @tempfile=#<Tempfile:/var/folders/14/v3rhvw6s4h98_0kdwqy8_pd80000gn/T/RackMultipart20141001-2569-a4adoe>, @original_filename="hanna.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pet[avatar]\"; filename=\"hanna.jpg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"", "country"=>"Colombia", "region"=>"Amazonas", "city"=>"Arauca", "institution_id"=>""}, "age"=>"", "comments"=>"", "commit"=>"Crear Mascota"}
+Unpermitted parameters: avatar
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "pets" ("city", "country", "created_at", "name", "region", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["city", "Arauca"], ["country", "Colombia"], ["created_at", Wed, 01 Oct 2014 19:09:02 UTC +00:00], ["name", ""], ["region", "Amazonas"], ["updated_at", Wed, 01 Oct 2014 19:09:02 UTC +00:00]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pets/12
+Completed 302 Found in 12ms (ActiveRecord: 7.6ms)
+
+
+Started GET "/pets/12" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mPet Load (0.1ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "12"]]
+  Rendered pets/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+
+Started GET "/images/missing.png" for 127.0.0.1 at 2014-10-01 14:09:02 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/missing.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/MumiRuiz/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (32.1ms)
+
+
+Started GET "/pets/" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.2ms)[0m  [1mSELECT "pets".* FROM "pets"[0m
+  Rendered pets/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/entypo.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/theme-elements.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/admin/pets.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/color-vars.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/flexnav.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/frontend.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/institutions.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/pet_trues.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/pets.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery-1.11.0.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery-migrate-1.2.1.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.flexnav.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.hoverIntent.minified.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.flickrfeed.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.isotope.sloppy-masonry.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/owl.carousel.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.appear.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.fitvids.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.stellar.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.flexslider-min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.validate.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/admin/pets.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/countdown.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/ext.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/institutions.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.gmap3.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/jquery.knob.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/pet_trues.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/pets.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/respond.min.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-01 14:09:14 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-01 14:09:14 -0500

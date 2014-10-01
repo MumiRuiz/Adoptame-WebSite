@@ -26,4 +26,12 @@ Micropost::Application.configure do
   # number of complex assets.
   config.assets.debug = true
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
+
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_credentials => {
+    :bucket => 'adoptame',
+    :access_key_id => 'AKIAIN5REZD552WEX43Q',
+    :secret_access_key => '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'
+  }
 end

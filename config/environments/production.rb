@@ -80,4 +80,15 @@ Micropost::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+# config/environments/production.rb
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_credentials => {
+    :bucket => 'adoptame',
+    :access_key_id => 'AKIAIN5REZD552WEX43Q',
+    :secret_access_key => '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'
+  }
+}
+
 end

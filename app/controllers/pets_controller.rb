@@ -67,6 +67,7 @@ def preview
    if @photo.contenttype == "image"          
       img_orig = Magick::Image.read("/assets/images/"+@photo.filename).first
       img = img_orig.resize_to_fit(200,200)
+      img = img.vignette(x, y, radius=0.0, sigma=10.0)
      @response.headers["Content-type"] = img.mime_type
       render :text => img.to_blob    
    end
