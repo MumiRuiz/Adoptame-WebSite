@@ -3,6 +3,18 @@ Micropost::Application.routes.draw do
   get "static_pages/contact"
   get "static_pages/faq"
   get "static_pages/services"
+
+
+
+  namespace :admin do
+    resources :pets
+
+  end
+
+   namespace :admin do
+    resources :institutions
+  end
+
   resources :pets
 
   resources :institutions
