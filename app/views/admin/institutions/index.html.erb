@@ -1,9 +1,33 @@
-<h1>Listing admin_institutions</h1>
+<div class="main" role="main">
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
+      <!-- Page Heading -->
+      <section class="page-heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Dashboard Mascotas</h1>
+            </div>
+            <div class="col-md-6">
+              <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Pet Sitters</a></li>
+                <li class="active">Dashboard</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Heading / End -->
+
+          <!-- Page Content -->
+      <section class="page-content">
+        <div class="container">
+
+            <div class="table-responsive">
+              <table class="job-manager-jobs table table-bordered table-striped">
+                <thead>
+                  <tr>
+               <th>Name</th>
       <th>Username</th>
       <th>Email</th>
       <th>Password</th>
@@ -12,13 +36,9 @@
       <th>Region</th>
       <th>City</th>
       <th>Website</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
+                  </tr>
+                </thead>
+      <tbody>
     <% @admin_institutions.each do |admin_institution| %>
       <tr>
         <td><%= admin_institution.name %></td>
@@ -36,8 +56,22 @@
       </tr>
     <% end %>
   </tbody>
-</table>
+              </table>
 
-<br>
-
+              
 <%= link_to 'New Institution', new_admin_institution_path %>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+

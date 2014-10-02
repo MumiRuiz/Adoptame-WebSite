@@ -4,7 +4,7 @@ class Admin::InstitutionsController < ApplicationController
   # GET /admin/institutions
   # GET /admin/institutions.json
   def index
-    @admin_institutions = Admin::Institution.all
+    @admin_institutions = Institution.all
   end
 
   # GET /admin/institutions/1
@@ -14,7 +14,7 @@ class Admin::InstitutionsController < ApplicationController
 
   # GET /admin/institutions/new
   def new
-    @admin_institution = Admin::Institution.new
+    @admin_institution = Institution.new
   end
 
   # GET /admin/institutions/1/edit
@@ -24,7 +24,7 @@ class Admin::InstitutionsController < ApplicationController
   # POST /admin/institutions
   # POST /admin/institutions.json
   def create
-    @admin_institution = Admin::Institution.new(admin_institution_params)
+    @admin_institution = Institution.new(admin_institution_params)
 
     respond_to do |format|
       if @admin_institution.save
@@ -64,7 +64,7 @@ class Admin::InstitutionsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_admin_institution
-      @admin_institution = Admin::Institution.find(params[:id])
+      @admin_institution = Institution.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

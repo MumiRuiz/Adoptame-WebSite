@@ -1,3 +1,68 @@
+
+<section class="page-heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Fundaciones</h1>
+            </div>
+            <div class="col-md-6">
+              <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Pages</a></li>
+                <li class="active">Team Member</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Heading / End -->
+
+<section class="page-content">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-5">
+              <figure class="alignnone">
+                <img src="http://placehold.it/470x470" alt="">
+              </figure>
+            </div>
+            <div class="col-md-7">
+              <div class="spacer visible-sm visible-xs"></div>
+              <div class="team-single-head">
+                <h2><%= @institution.name %><small>/
+                 <%= @institution.manager %></small></h2>
+              </div>
+              <h5>Short Info</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisi ac mi malesuada vestibulum. Phasellus tempor nunc eleifend cursus molestie. Mauris lectus arcu, pellentesque at sodales sit amet, condimentum id nunc. Aliquam tincidunt a sapien nec faucibus. Maecenas tempus quam at pellentesque laoreet. Fusce ullamcorper est a ultricies vestibulum. Nullam vitae ultrices sapien.</p>
+
+              <p>Donec ornare mattis suscipit. Praesent fermentum accumsan vulputate. Sed velit nulla, sagittis non erat id, dictum vestibulum ligula. Maecenas sed enim sem. Etiam</p>
+
+              <h5>Profile</h5>
+
+              <dl class="dl-horizontal">
+                <dt>Email</dt>
+                <dd><a href="#"><%= @institution.email %></a></dd>
+                <dt>Website</dt>
+                <dd><a href="#"> <%= @institution.website %></a></dd>
+                <dt>País</dt>
+                <dd><%= @institution.country %>
+                    <%= @institution.region %>
+                    <%= @institution.city %></dd>
+                <dt>Google+</dt>
+                <dd><a href="#">http://plus.google.com/johndoe</a></dd>
+                <dt>Skype ID</dt>
+                <dd><a href="#">john_doe</a></dd>
+              </dl>
+            </div>
+          </div>
+                 
+
+<%= link_to 'Edit', edit_institution_path(@institution) %> |
+<%= link_to 'Back', institutions_path %>
+           </div>
+            </section>
+
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -42,7 +107,4 @@
 </p>
 
   
-       
 
-<%= link_to 'Edit', edit_institution_path(@institution) %> |
-<%= link_to 'Back', institutions_path %>
