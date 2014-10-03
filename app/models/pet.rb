@@ -1,7 +1,7 @@
 class Pet < ActiveRecord::Base
 
 	#attr_accessible :content, :name, :tag_list
-	acts_as_taggable
+	#acts_as_taggable
 
   has_attached_file :photo, :styles => { :large => "708x671#", :medium => "320x290#", :small => "288x268#", :thumb => "160x160#" },
                   :storage => :s3,

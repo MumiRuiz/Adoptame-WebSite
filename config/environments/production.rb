@@ -82,12 +82,12 @@ Micropost::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
 # config/environments/production.rb
-  config.paperclip_defaults = {
-    :storage => :s3,
-    :s3_credentials => {
-    :bucket => ENV['adoptame-pets-photos'],
-    :access_key_id => ENV['AKIAIKP3ZW7DTHOTFMNA '],
-    :secret_access_key => ENV['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']
-  }
+  # config.paperclip_defaults = {
+  #   :storage => :s3,
+  #   :s3_credentials => {
+  #   :bucket => ENV['xxxx'],
+  #   :access_key_id => ENV['xxxx '],
+  #   :secret_access_key => ENV['xxxx']
+  # }
 
 end
