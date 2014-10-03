@@ -53,6 +53,8 @@ group :production do
 end
 gem 'activeadmin', github: 'activeadmin'
 
+gem 'acts-as-taggable-on'
+
  
 
 # Use ActiveModel has_secure_password
