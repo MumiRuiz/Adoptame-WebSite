@@ -27,6 +27,14 @@ Micropost::Application.routes.draw do
   resources :users
   root 'posts#index'
 
+  get 'tags/:tag', to: 'pets#index', as: :tag
+
+  resources :pets  do
+    collection do 
+      get :search
+    end
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

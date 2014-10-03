@@ -5,7 +5,11 @@ class PetsController < ApplicationController
   # GET /pets
   # GET /pets.json
   def index
+    if params[:tag]
+    @pets = Article.tagged_with(params[:tag])
+  else
     @pets = Pet.all
+  end
   end
 
   # GET /pets/1
