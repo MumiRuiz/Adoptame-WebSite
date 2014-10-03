@@ -85,10 +85,9 @@ Micropost::Application.configure do
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
-    :bucket => 'adoptame',
-    :access_key_id => 'AKIAIN5REZD552WEX43Q',
-    :secret_access_key => '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'
+    :bucket => ENV['adoptame-pets-photos'],
+    :access_key_id => ENV['AKIAIKP3ZW7DTHOTFMNA '],
+    :secret_access_key => ENV['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']
   }
-}
 
 end

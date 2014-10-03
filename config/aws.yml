@@ -1,0 +1,36 @@
+# Fill in your AWS Access Key ID and Secret Access Key
+# http://aws.amazon.com/security-credentials
+development:
+    access_key_id: AKIAIAJL7FN3CUEJ52HQ
+    secret_access_key: ONGwsLzQsAeQd9D+89BBGEsl84d/tI4TOg2hewJk
+
+
+
+# require 'aws-sdk'
+
+
+# # RAILS_ROOT/config/aws.yml
+# # development:
+# #   access_key_id: DEV_AKIAIYVAF3OPRQAZPDWA
+# #   secret_access_key: DEV_gf/uIhlO0IomHheMuoxvThk8uTiHkGLGR7xUMWPY
+# #   bucket: Adoptame-WebSite-dev
+#   #simple_db_consistent_reads: false
+# development:
+#   bucket: Adoptame-WebSite-dev
+#   access_key_id: AKIAIYVAF3OPRQAZPDWA
+#   secret_access_key: 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
+# test:
+#   bucket: Adoptame-WebSite-test
+#   access_key_id: AKIAIYVAF3OPRQAZPDWA
+#   secret_access_key: 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
+# production:
+#   bucket: Adoptame-WebSite-pro
+#   access_key_id: AKIAIYVAF3OPRQAZPDWA
+#   secret_access_key: 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
+
+
+
+
+# # production:
+# #   <<: *development
+#   #simple_db_consistent_reads: true
