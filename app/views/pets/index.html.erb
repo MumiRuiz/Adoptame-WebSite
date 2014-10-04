@@ -31,17 +31,16 @@
                  <%= image_tag pet.photo.url(:thumb) %>
                 
                   <div class="overlay"></div>
-                    <%= pet.city %>
-                    <%= pet.city %>
+                   
                 </figure>
 
                 <header class="team-head">
                   <h5 class="team-name"><%= pet.name %></h5>
                   <span class="team-head-info"></span>
-                      <%= pet.city %><br />
-                      <%= pet.age %> Meses<br />
-                      <%= pet.gender %><br />
-                      <%= pet.size %>
+                     <i class="entypo location"></i> <%= pet.city %><br />
+                     <i class="entypo vcard"></i> <%= pet.age %> Meses<br />
+                     <i class="entypo direction"></i><%= pet.gender %><br />
+                     <i class="entypo direction"></i><%= pet.size %>
                          
                 </header>
                 <div class="team-excerpt">
