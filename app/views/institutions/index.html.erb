@@ -62,8 +62,9 @@
 
 
             <% @institutions.each do |institution| %>
+
               <li class="job_listing">
-                <a href="#">
+               <%= link_to institution_path(institution) do %> 
                   <img src="http://placehold.it/58x58" alt="" class="company_logo">
                   <div class="position">
                     <h3><%= institution.name %></h3>
@@ -79,7 +80,7 @@
                       Posted 2 months ago
                     </li>
                   </ul>
-                </a>
+                <% end %>
               </li>
             <% end %>
             </ul>

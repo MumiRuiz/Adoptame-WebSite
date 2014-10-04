@@ -163,83 +163,35 @@
               <div class="col-md-8">
                 <h2 class="with-subtitle" data-animation="fadeInUp" data-animation-delay="0">Nuevas Mascotas <small data-animation="fadeInUp" data-animation-delay="100">Mascotas en adopción</small></h2>
                 <div class="row">
+                 
+                  <% @pets.each do |pet| %>
                   <div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="0">
                     <div class="job-listing-box">
-                      
+                      <%= link_to pet_path(pet) do %> 
                       <figure class="job-listing-img">
-                        <a href="job-profile.html"><img src="http://placehold.it/160x160" alt=""></a>
+                      
+                         <%= image_tag pet.photo.url(:thumb) %>
                       </figure>
                       <div class="job-listing-body">
-                        <h4 class="name"><a href="job-profile.html">Samantha Doe</a></h4>
+                        <h4 class="name"><a href="job-profile.html"><%= pet.name %></a></h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                       </div>
                       <footer class="job-listing-footer">
                         <ul class="meta">
-                          <li class="category">Cat Sitter</li>
-                          <li class="location"><a href="#">Orlando, FL</a></li>
+                          <li class="category"><%= pet.kind %></li>
+                          <li class="location"><a href="#">  <%=pet.city %> |  <%= pet.region %> |   <%= pet.country %></a></li>
                           <li class="date">Posted 1 day ago</li>
                         </ul>
                       </footer>
+                      <% end %>
                     </div>
                   </div>
-                  <div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="200">
-                    <div class="job-listing-box">
-                      <figure class="job-listing-img">
-                        <a href="job-profile.html"><img src="http://placehold.it/160x160" alt=""></a>
-                      </figure>
-                      <div class="job-listing-body">
-                        <h4 class="name"><a href="job-profile.html">Molly Warren</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      </div>
-                      <footer class="job-listing-footer">
-                        <ul class="meta">
-                          <li class="category">Dog Sitter</li>
-                          <li class="location"><a href="#">Orlando, FL</a></li>
-                          <li class="date">Posted 2 days ago</li>
-                        </ul>
-                      </footer>
-                    </div>
-                  </div>
+                <%end%>
 
                   <div class="clearfix visible-xs"></div>
                   <div class="spacer visible-xs"></div>
 
-                  <div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="400">
-                    <div class="job-listing-box">
-                      <figure class="job-listing-img">
-                        <a href="job-profile.html"><img src="http://placehold.it/160x160" alt=""></a>
-                      </figure>
-                      <div class="job-listing-body">
-                        <h4 class="name"><a href="job-profile.html">Jeff Black</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      </div>
-                      <footer class="job-listing-footer">
-                        <ul class="meta">
-                          <li class="category">Pet Sitter</li>
-                          <li class="location"><a href="#">Orlando, FL</a></li>
-                          <li class="date">Posted 3 days ago</li>
-                        </ul>
-                      </footer>
-                    </div>
-                  </div>
-                  <div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="600">
-                    <div class="job-listing-box">
-                      <figure class="job-listing-img">
-                        <a href="job-profile.html"><img src="http://placehold.it/160x160" alt=""></a>
-                      </figure>
-                      <div class="job-listing-body">
-                        <h4 class="name"><a href="job-profile.html">Susan Smith</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      </div>
-                      <footer class="job-listing-footer">
-                        <ul class="meta">
-                          <li class="category">Cat Sitter</li>
-                          <li class="location"><a href="#">Orlando, FL</a></li>
-                          <li class="date">Posted 5 days ago</li>
-                        </ul>
-                      </footer>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
               <div class="col-md-4" data-animation="fadeInRight" data-animation-delay="0">
@@ -265,42 +217,8 @@
                       </footer>
                     </div>
                   </div>
-                  <div class="job-listing-box featured">
-                    <figure class="job-listing-img">
-                      <a href="job-profile.html"><img src="http://placehold.it/708x671" alt=""></a>
-                    </figure>
-                    <div class="job-listing-holder">
-                      <div class="job-listing-body">
-                        <h4 class="name"><a href="job-profile.html">John Doe</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      </div>
-                      <footer class="job-listing-footer">
-                        <ul class="meta">
-                          <li class="category">Cat Sitter</li>
-                          <li class="location"><a href="#">Orlando, FL</a></li>
-                          <li class="date">Posted 5 days ago</li>
-                        </ul>
-                      </footer>
-                    </div>
-                  </div>
-                  <div class="job-listing-box featured">
-                    <figure class="job-listing-img">
-                      <a href="job-profile.html"><img src="http://placehold.it/708x671" alt=""></a>
-                    </figure>
-                    <div class="job-listing-holder">
-                      <div class="job-listing-body">
-                        <h4 class="name"><a href="job-profile.html">John Doe</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      </div>
-                      <footer class="job-listing-footer">
-                        <ul class="meta">
-                          <li class="category">Cat Sitter</li>
-                          <li class="location"><a href="#">Orlando, FL</a></li>
-                          <li class="date">Posted 5 days ago</li>
-                        </ul>
-                      </footer>
-                    </div>
-                  </div>
+                  
+                  
                 </div>
                 <!-- Featured Listings / End -->
             

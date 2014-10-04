@@ -6,6 +6,7 @@ class PostsController < ApplicationController
   # GET /posts.json
   def index
     @posts = Post.all
+    @pets = Pet.all.limit(4)
   end
 
   # GET /posts/1
