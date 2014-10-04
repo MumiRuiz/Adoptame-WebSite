@@ -3,13 +3,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h1>Fundaciones</h1>
+              <h1>Instituciones</h1>
             </div>
             <div class="col-md-6">
               <ul class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Inicio</a></li>
                 <li><a href="#">Pages</a></li>
-                <li class="active">Team Member</li>
+                <li class="active">Instituciones</li>
               </ul>
             </div>
           </div>
@@ -23,12 +23,12 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Nombre:</strong>
   <%= @admin_institution.name %>
 </p>
 
 <p>
-  <strong>Username:</strong>
+  <strong>Usuario:</strong>
   <%= @admin_institution.username %>
 </p>
 
@@ -38,37 +38,37 @@
 </p>
 
 <p>
-  <strong>Password:</strong>
+  <strong>Contraseña:</strong>
   <%= @admin_institution.password %>
 </p>
 
 <p>
-  <strong>Manager:</strong>
+  <strong>Representante Legal:</strong>
   <%= @admin_institution.manager %>
 </p>
 
 <p>
-  <strong>Country:</strong>
+  <strong>País:</strong>
   <%= @admin_institution.country %>
 </p>
 
 <p>
-  <strong>Region:</strong>
+  <strong>Región:</strong>
   <%= @admin_institution.region %>
 </p>
 
 <p>
-  <strong>City:</strong>
+  <strong>Ciudad:</strong>
   <%= @admin_institution.city %>
 </p>
 
 <p>
-  <strong>Website:</strong>
+  <strong>Sitio Web:</strong>
   <%= @admin_institution.website %>
 </p>
 
-<%= link_to 'Edit', edit_admin_institution_path(@admin_institution) %> |
-<%= link_to 'Back', admin_institutions_path %>
+<%= link_to 'Editar', edit_admin_institution_path(@admin_institution) %> |
+<%= link_to 'Atrás', admin_institutions_path %>
 
 </div >
 
