@@ -11,11 +11,11 @@
     <%= csrf_meta_tags %>
 
 
-      <link rel="shortcut icon" href="images/favicon.ico">
-      <link rel="apple-touch-icon" href="images/logo-adoptame57px.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="images/logo-adoptame-alpha72px.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="images/logo-adoptame-alpha114.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="images/logo-adoptame-alpha144.png">
+      <link rel="shortcut icon"<%= favicon_link_tag 'favicon.ico' %> >
+      <link rel="apple-touch-icon" <%= image_tag("logo-adoptame57px.png")%> >
+      <link rel="apple-touch-icon" sizes="72x72" <%= image_tag("logo-adoptame-alpha72px.png")%> >
+      <link rel="apple-touch-icon" sizes="114x114" <%= image_tag("logo-adoptame-alpha114px.png")%> >
+      <link rel="apple-touch-icon" sizes="144x144" <%= image_tag("logo-adoptame-alpha144px.png")%> >
 
 
   </head>
