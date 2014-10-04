@@ -1,4 +1,7 @@
 Micropost::Application.routes.draw do
+  get "static_pages/comming"
+  resources :static_pages
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   get "static_pages/about"
