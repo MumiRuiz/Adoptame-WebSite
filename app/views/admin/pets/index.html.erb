@@ -5,13 +5,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h1>Dashboard Mascotas</h1>
+              <h1>Administrador de Mascotas</h1>
             </div>
             <div class="col-md-6">
               <ul class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Pet Sitters</a></li>
-                <li class="active">Dashboard</li>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="about">¿Quiénes Somos?</a></li>
+                <li class="active">Administrador de Mascotas</li>
               </ul>
             </div>
           </div>
@@ -27,16 +27,16 @@
               <table class="job-manager-jobs table table-bordered table-striped">
                 <thead>
                   <tr>
-                   <th>Name</th>
-      <th>Age</th>
-      <th>Kind</th>
-      <th>Gender</th>
-      <th>Size</th>
-      <th>Story</th>
-      <th>Region</th>
-      <th>City</th>
-      <th>Country</th>
-      <th>Institution</th>
+                   <th>Nombre</th>
+      <th>Edad</th>
+      <th>Tipo</th>
+      <th>Género</th>
+      <th>Tamaño</th>
+      <th>Historia o descripción</th>
+      <th>Región</th>
+      <th>Ciudad</th>
+      <th>País</th>
+      <th>Institución</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -52,16 +52,16 @@
         <td><%= admin_pet.city %></td>
         <td><%= admin_pet.country %></td>
       
-        <td><%= link_to 'Show', admin_pet %></td>
-        <td><%= link_to 'Edit', edit_admin_pet_path(admin_pet) %></td>
-        <td><%= link_to 'Destroy', admin_pet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Mostrar', admin_pet %></td>
+        <td><%= link_to 'Editar', edit_admin_pet_path(admin_pet) %></td>
+        <td><%= link_to 'Destruir', admin_pet, method: :delete, data: { confirm: 'Esta seguro?' } %></td>
       </tr>
     <% end %>
   </tbody>
               </table>
 
               
-<%= link_to 'New Pet', new_admin_pet_path %>
+<%= link_to 'Nueva Mascota', new_admin_pet_path %>
             </div>
 
           </div>
