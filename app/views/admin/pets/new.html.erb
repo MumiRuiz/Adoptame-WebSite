@@ -43,12 +43,14 @@
   </div>
 <br />
 
-  <div class="field">
+ <div class="field">
     <%= f.label :age, "Edad" %><br />
-    <%= f.number_field("age", "Edad" nil, in: 1...360) %> Meses <%= f.label :age_edad, "Edad en meses. Ejemplo "13" "%>
+    <%= f.number_field(:age, in: 1..300) %> <%= f.label :age, "Meses" %><br />
+    Por favor diligenciar este campo en meses. Ejemplo "48" meses = 4 años
 <br />
-
-  <div class="field">
+<br />
+   
+ <div class="field">
     <%= f.label :kind, "Tipo" %><br />
     <%= f.radio_button("kind", "Perro") %> <%= f.label :kind_perro, "Perro" %> <br />
     <%= f.radio_button("kind", "Gato") %>  <%= f.label :kind_perro, "Gato" %>
@@ -72,6 +74,7 @@
      <%= f.radio_button("size", "Extra Grande") %>  <%= f.label :size_extragrande, "Extra Grande" %>
    </div>  
 <br />  
+
 
   <div class="field">
     <%= f.label :country, "País" %><br />
@@ -164,15 +167,16 @@
     <%#= f.text_field :user_id %>
   </div> -->
 
-  <div class="field">
+ <div class="field">
     <%= f.label :institution_id, "Institución" %><br />
-    <%= f.text_field :institution_id %>
+    <%= f.text_field :institution_id, size: "60x1", maxlength: "200" %>
   </div>
 
 
   <div class="field">
     <%= f.label :story, "Historia o Descripción" %><br />
-    <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea>
+    <%= f.text_area :story, size: "60x3", maxlength: "200" %>
+    <!-- <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea> -->
   </div>
 
   <div class="actions">
@@ -183,7 +187,7 @@
 
 
 
-<%= link_to 'Back', admin_pets_path %>
+<%= link_to 'Atrás', admin_pets_path %>
 
 </div>
 </section	>

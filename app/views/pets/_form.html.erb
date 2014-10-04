@@ -145,13 +145,14 @@
 
   <div class="field">
     <%= f.label :institution_id, "Institución" %><br />
-    <%= f.text_field :institution_id %>
+    <%= f.text_field :institution_id, size: "60x1", maxlength: "200" %>
   </div>
 
 
   <div class="field">
     <%= f.label :story, "Historia o Descripción" %><br />
-    <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea>
+    <%= f.text_area :story, size: "60x3", maxlength: "200" %>
+    <!-- <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea> -->
   </div>
 
   <div class="actions">

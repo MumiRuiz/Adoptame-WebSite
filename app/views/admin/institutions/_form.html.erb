@@ -12,6 +12,11 @@
   <% end %>
 
   <div class="field">
+  <%= f.label :logo %><br />
+  <%= f.file_field :logo %>
+</div>
+
+  <div class="field">
     <%= f.label :name %><br>
     <%= f.text_field :name %>
   </div>
@@ -42,6 +47,10 @@
   <div class="field">
     <%= f.label :city %><br>
     <%= f.text_field :city %>
+  </div>
+   <div class="field">
+    <%= f.label :manager, "Representante Legal" %><br>
+    <%= f.text_field :manager %>
   </div>
   <div class="field">
     <%= f.label :website %><br>

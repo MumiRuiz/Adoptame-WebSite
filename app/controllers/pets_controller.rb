@@ -20,6 +20,7 @@ class PetsController < ApplicationController
   # GET /pets/new
   def new
     @pet = Pet.new
+    @institutions = Institution.all.map { |institution| [institution.name, institution.id] } 
   end
 
   # GET /pets/1/edit

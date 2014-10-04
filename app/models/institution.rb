@@ -1,5 +1,5 @@
 class Institution < ActiveRecord::Base
-	 has_attached_file :logo, :styles => { :medium => "470x470>", :thumb => "58x58>" }, :default_url => "/images/:style/missing.png"
-  	validates_attachment_content_type :logo, :content_type => /\Aimage\/.*\Z/
+	 has_attached_file :logo, :styles => { :large =>"708x671#" :medium => "470x470#", :thumb => "58x58#" }, 
 
+	  validates_attachment_content_type :logo, :presence => true, :size => { :in => 0..10.megabytes }, :content_type => /\Aimage\/.*\Z/
 end

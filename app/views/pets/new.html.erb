@@ -3,7 +3,7 @@
 <%= form_for(@pet) do |f| %>
   <% if @pet.errors.any? %>
       <div id="error_explanation">
-          <h2><%= pluralize(@pet.errors.count, "error") %> prohibited this pet from being saved:</h2>
+          <h2><%= pluralize(@pet.errors.count, "error") %> Imposible guardar esta mascota:</h2>
 
           <ul>
             <% @pet.errors.full_messages.each do |msg| %>
@@ -26,7 +26,9 @@
 
  <div class="field">
     <%= f.label :age, "Edad" %><br />
-    <%= f.number_field "age", "Edad", nil, in: 1...360 %>  <%= f.label :age_edad, "Edad en meses. Ejemplo "13" "%>
+    <%= f.number_field(:age, in: 1..300) %> <%= f.label :age, "Meses" %><br />
+    Por favor diligenciar este campo en meses. Ejemplo "48" meses = 4 años
+<br />
 <br />
    
  <div class="field">
@@ -148,13 +150,14 @@
 
   <div class="field">
     <%= f.label :institution_id, "Institución" %><br />
-    <%= f.text_field :institution_id %>
+    <%= f.text_field :institution_id, size: "60x1", maxlength: "200" %>
   </div>
 
 
   <div class="field">
     <%= f.label :story, "Historia o Descripción" %><br />
-    <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea>
+    <%= f.text_area :story, size: "60x3", maxlength: "200" %>
+    <!-- <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea> -->
   </div>
 
   <div class="actions">
