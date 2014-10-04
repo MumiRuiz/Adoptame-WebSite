@@ -36,7 +36,6 @@
                   </div>
                   <div class="col-md-7">
                     <h2 class="name">  <%= @pet.name %></h2>
-                    <i class="tagline"><%= @pet.institution %></i>
                     <ul class="meta">
                       <li><%= @pet.age %></li>
                       <li><%= @pet.kind %></li>
@@ -49,8 +48,15 @@
                     </ul>
 
                     <div class="spacer-lg"></div>
+
+               
+                 
                 
-                    <a href="#" class="btn btn-success btn-lg"><span class="fa fa-envelope"></span> Send Message</a>
+
+                    
+                    <a class="btn btn-success btn-lg"><span class="fa fa-envelope"></span>Adoptame</a>
+                                  
+
                   </div>
                 </div>
 
@@ -63,16 +69,16 @@
                 
                 <hr class="lg">
                 
-                <h4>Location</h4>
-                <!-- Google Map -->
-                <div class="googlemap-wrapper">
+<!--                 <h4>Location</h4>
+ -->                <!-- Google Map -->
+               <!--  <div class="googlemap-wrapper">
                   <div id="map_canvas" class="map-canvas"></div>
-                </div>
+                </div> -->
                 <!-- Google Map / End -->
                 
                 <hr class="lg">
                 
-                <div class="row">
+                <!-- <div class="row">
                   <div class="col-sm-4 col-md-4">
                     <h4>Skills</h4>
                     <div class="list list__arrow2">
@@ -109,7 +115,7 @@
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
 
 
@@ -298,69 +304,5 @@
         </div>
       </section>
 
-<p id="notice"><%= notice %></p>
-
-  <%= image_tag @pet.photo.url(:large) %>
-  <%= image_tag @pet.photo.url(:small) %>
-  <%= image_tag @pet.photo.url(:medium) %>
-  <%= image_tag @pet.photo.url(:thumb) %>
 
 
-
-<p>
-  <strong>Nombre:</strong>
-  <%= @pet.name %>
-</p>
-
-<p>
-  <strong>Edad:</strong>
-  <%= @pet.age %>
-</p>
-
-<p>
-  <strong>Tipo:</strong>
-  <%= @pet.kind %>
-</p>
-
-<p>
-  <strong>Género:</strong>
-  <%= @pet.gender %>
-</p>
-
-<p>
-  <strong>Tamaño:</strong>
-  <%= @pet.size %>
-</p>
-
-<p>
-  <strong>Historia o descripción:</strong>
-  <%= @pet.story %>
-</p>
-
-<p>
-  <strong>País:</strong>
-  <%= @pet.country %>
-</p>
-
-<p>
-  <strong>Ciudad:</strong>
-  <%= @pet.city %>
-</p>
-
-<p>
-  <strong>Región:</strong>
-  <%= @pet.region %>
-</p>
-
-<p>
-  <strong>Usuario:</strong>
-  <%= @pet.user %>
-</p>
-
-<p>
-  <strong>Fundación:</strong>
-  <%= @pet.institution %>
-</p>
-
-<%= link_to 'Editar', edit_pet_path(@pet) %> |
-<%= link_to 'Atrás', pets_path %>
