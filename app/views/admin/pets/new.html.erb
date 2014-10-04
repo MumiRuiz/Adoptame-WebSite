@@ -45,33 +45,31 @@
 
   <div class="field">
     <%= f.label :age, "Edad" %><br />
-    <input type="number" name="age" min="1" max="30">
-    <input type="radio" name="age" value="Meses">Meses
-    <input type="radio" name="age" value="Años">Años
-    <input type="radio" name="age" value="Días">Días
-  </div>
+    <%= f.number_field("age", "Edad" nil, in: 1...360) %> Meses <%= f.label :age_edad, "Edad en meses. Ejemplo "13" "%>
 <br />
 
- <div class="field">
-    <%= f.label :age, "Tipo" %><br />
-    <input type="radio" name="kind" value="Perro">Perro<br />
-    <input type="radio" name="kind" value="Gato">Gato
+  <div class="field">
+    <%= f.label :kind, "Tipo" %><br />
+    <%= f.radio_button("kind", "Perro") %> <%= f.label :kind_perro, "Perro" %> <br />
+    <%= f.radio_button("kind", "Gato") %>  <%= f.label :kind_perro, "Gato" %>
+  <!--   <input type="radio" name="kind" value="Perro">Perro<br />
+    <input type="radio" name="kind" value="Gato">Gato -->
   </div>
 <br />
 
   <div class="field">
     <%= f.label :gender, "Género" %><br />
-        <input type="radio" name="gender" value="Macho">Macho<br />
-        <input type="radio" name="gender" value="Hembra">Hembra
+    <%= f.radio_button("gender", "Macho") %> <%= f.label :gender_macho, "Macho" %> <br />
+    <%= f.radio_button("gender", "Hembra") %>  <%= f.label :gender_hembra, "Hembra" %>
   </div>
   <br />
 
   <div class="field">
     <%= f.label :size, "Tamaño" %><br />
-        <input type="radio" name="size" value="Pequeño">Pequeño<br />
-        <input type="radio" name="size" value="Mediano">Mediano<br />
-        <input type="radio" name="size" value="Grande">Grande<br />
-        <input type="radio" name="size" value="Extra Grande">Extra Grande
+     <%= f.radio_button("size", "Pequeño") %> <%= f.label :size_pequeño, "Pequeño" %> <br />
+     <%= f.radio_button("size", "Mediano") %> <%= f.label :size_mediano, "Mediano" %> <br />
+     <%= f.radio_button("size", "Grande") %> <%= f.label  :size_grande, "Grande" %> <br />
+     <%= f.radio_button("size", "Extra Grande") %>  <%= f.label :size_extragrande, "Extra Grande" %>
    </div>  
 <br />  
 
