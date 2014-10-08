@@ -1626,7 +1626,7 @@ cite > span {
 .testimonial .bq-author .author-img {
   display: block;
   position: absolute;
-  right: 10px;
+  left: 6px;
   top: 0;
 }
 .testimonial .bq-author .author-img > img {

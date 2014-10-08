@@ -1,18 +1,18 @@
 class StaticPagesController < ApplicationController
-  def comming
-  end
+    def comming
+    end
 
-   def about
-  end
+    def about
+    end
 
-   def contact
-  end
+    def contact
+    end
 
-  def faq
-  end
+    def faq
+    end
 
-  def services
-  end
+    def services
+    end
 
 	  
 
