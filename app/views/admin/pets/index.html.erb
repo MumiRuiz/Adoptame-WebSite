@@ -51,6 +51,9 @@
         <td><%= admin_pet.region %></td>
         <td><%= admin_pet.city %></td>
         <td><%= admin_pet.country %></td>
+                <td><%= admin_pet.tag_list.map {|t| link_to t, tag_path(t)}.join (',')%></td>
+
+
       
         <td><%= link_to 'Mostrar', admin_pet %></td>
         <td><%= link_to 'Editar', edit_admin_pet_path(admin_pet) %></td>

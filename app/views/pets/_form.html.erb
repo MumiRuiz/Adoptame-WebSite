@@ -155,6 +155,11 @@
     <!-- <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea> -->
   </div>
 
+  <div class="field">
+  <%= f.label :tag_list, "Tags (separated by commas)" %><br />
+  <%= f.text_field :tag_list %>
+</div>
+
   <div class="actions">
     <%= f.submit "Crear Mascota" %>
   </div>
