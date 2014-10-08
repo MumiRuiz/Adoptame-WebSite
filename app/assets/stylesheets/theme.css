@@ -92,7 +92,7 @@ body.boxed .site-wrapper {
 .header-top {
   background: #2e2e2e;
   height: 42px;
-  color: #8c8c8c;
+  color: black;
   font-size: 13px;
 }
 .header-top > .container {
@@ -186,7 +186,9 @@ body.boxed .site-wrapper {
   vertical-align: middle;
   text-align: right;
   width: 50%;
+  background: black;
 }
+
 .header-top-right > span + span {
   margin-left: 32px;
 }
@@ -647,6 +649,7 @@ body.boxed .site-wrapper {
   text-align: left;
   min-height: 0;
   background: #fff;
+  /*BACKGROUND OF MENU BAR*/
 }
 @media all and (min-width: 992px) {
   .header-menu-fullw .nav-main {
