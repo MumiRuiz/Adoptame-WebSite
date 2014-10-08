@@ -12,8 +12,8 @@ class Pet < ActiveRecord::Base
   belongs_to :user
   belongs_to :institution
 
-  attr_accessible :tag_list 
+ #  attr_accessible :tag_list 
 
-	acts_as_taggable
+	# acts_as_taggable
 
 end

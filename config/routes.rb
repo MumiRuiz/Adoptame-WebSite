@@ -8,7 +8,7 @@ Micropost::Application.routes.draw do
   get "static_pages/contact"
   get "static_pages/faq"
   get "static_pages/services"
-  get 'tags/:tag', to: 'pets#index', as: :tag
+  # get 'tags/:tag', to: 'pets#index', as: :tag
 
 
 
@@ -31,7 +31,7 @@ Micropost::Application.routes.draw do
   resources :users
   root 'posts#index'
 
-  get 'tags/:tag', to: 'pets#index', as: :tag
+  # get 'tags/:tag', to: 'pets#index', as: :tag
 
   resources :pets  do
     collection do 
