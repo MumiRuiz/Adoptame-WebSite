@@ -8,6 +8,9 @@ Micropost::Application.routes.draw do
   get "static_pages/contact"
   get "static_pages/faq"
   get "static_pages/services"
+  get "static_pages/blog"
+  get "static_pages/blog_post"
+
   # get 'tags/:tag', to: 'pets#index', as: :tag
 
 
