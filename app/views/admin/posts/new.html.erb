@@ -1,5 +1,61 @@
-<h1>New admin_post</h1>
+ <section class="page-heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Nuevo Posts</h1>
+            </div>
+            <div class="col-md-6">
+              <ul class="breadcrumb">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="about">¿Quiénes Somos?</a></li>
+                <li class="active">Nueva Mascota</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Heading / End -->
+<!-- Page Content -->
+      <section class="page-content">
+        <div class="container">
 
-<%= render 'form' %>
+<%= form_for(@admin_post) do |f| %>
+  <% if @admin_post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@admin_post.errors.count, "error") %> prohibited this admin_post from being saved:</h2>
 
-<%= link_to 'Back', admin_posts_path %>
+      <ul>
+      <% @admin_post.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :content %><br>
+    <%= f.text_area :content %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_area :name %>
+  </div>
+  <div class="field">
+    <%= f.label :month %><br>
+    <%= f.text_area :month %>
+  </div>
+  <div class="field">
+    <%= f.label :day %><br>
+    <%= f.text_area :day %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+
+
+<%= link_to 'Atrás', admin_posts_path %>
+
+</div>
+</section	>
