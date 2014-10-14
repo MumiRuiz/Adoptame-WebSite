@@ -5,11 +5,9 @@ class PetsController < ApplicationController
   # GET /pets
   # GET /pets.json
   def index
-    if params[:tag]
-    @pets = Pet.tagged_with(params[:tag])
-  else
+   
     @pets = Pet.all
-  end
+  
   end
 
   # GET /pets/1
@@ -93,6 +91,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def pet_params
-      params.require(:pet).permit(:name, :age, :kind, :gender, :size, :story, :city, :country, :region, :user_id, :institution_id, :manager, :photo, :tag_list)
+      params.require(:pet).permit(:name, :age, :kind, :gender, :size, :story, :city, :country, :region, :user_id, :institution_id, :manager, :photo,:tag_list)
     end
 end

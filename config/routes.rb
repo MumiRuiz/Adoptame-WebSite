@@ -1,4 +1,5 @@
 Micropost::Application.routes.draw do
+  get "home/index"
   # get "static_pages/comming"
   # resources :static_pages/comming
 
@@ -24,6 +25,10 @@ Micropost::Application.routes.draw do
     resources :institutions
   end
 
+  namespace :admin do
+    resources :posts
+  end
+
   resources :pets
 
   resources :institutions
@@ -32,7 +37,7 @@ Micropost::Application.routes.draw do
   resources :posts
 
   resources :users
-  root 'posts#index'
+  root 'home#index'
 
   # get 'tags/:tag', to: 'pets#index', as: :tag
 

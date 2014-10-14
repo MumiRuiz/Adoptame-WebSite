@@ -36,6 +36,8 @@
                       <th>Región</th>
                       <th>Ciudad</th>
                       <th>Sitio Web</th>
+                                            <th>Tags</th>
+
                   </tr>
                 </thead>
       <tbody>
@@ -50,6 +52,8 @@
         <td><%= admin_institution.region %></td>
         <td><%= admin_institution.city %></td>
         <td><%= admin_institution.website %></td>
+        <td><%= admin_institution.tag_list%></td>
+
         <td><%= link_to 'Mostrar', admin_institution %></td>
         <td><%= link_to 'Editar', edit_admin_institution_path(admin_institution) %></td>
         <td><%= link_to 'Eliminar', admin_institution, method: :delete, data: { confirm: 'Esta seguro?' } %></td>

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @admin_post.content %>
+</p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @admin_post.nombre %>
+</p>
+
+<p>
+  <strong>Month:</strong>
+  <%= @admin_post.month %>
+</p>
+
+<p>
+  <strong>Day:</strong>
+  <%= @admin_post.day %>
+</p>
+
+<%= link_to 'Edit', edit_admin_post_path(@admin_post) %> |
+<%= link_to 'Back', admin_posts_path %>

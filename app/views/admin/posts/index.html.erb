@@ -1,0 +1,75 @@
+<div class="main" role="main">
+
+      <!-- Page Heading -->
+      <section class="page-heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Administrador de Blog</h1>
+            </div>
+            <div class="col-md-6">
+              <ul class="breadcrumb">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="about">¿Quiénes Somos?</a></li>
+                <li class="active">Administrador de Mascotas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Heading / End -->
+
+      <!-- Page Content -->
+      <section class="page-content">
+        <div class="container">
+
+            <div class="table-responsive">
+              <table class="job-manager-jobs table table-bordered table-striped">
+                <thead>
+                  <tr>
+                   <th>Titulo</th>
+                  <th>Contenido</th>
+                  <th>Mes </th>
+                  <th>Día</th>
+              
+
+                  </tr>
+                </thead>
+                <tbody>
+    <% @admin_posts.each do |admin_post| %>
+      <tr>
+        <td><%= admin_post.content %></td>
+        <td><%= admin_post.nombre %></td>
+        <td><%= admin_post.month %></td>
+        <td><%= admin_post.day %></td>
+        <td><%= link_to 'Show', admin_post %></td>
+        <td><%= link_to 'Edit', edit_admin_post_path(admin_post) %></td>
+        <td><%= link_to 'Destroy', admin_post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+              </table>
+
+              
+<%= link_to 'New Post', new_admin_post_path %>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+<br>
+
+
+
+
+
+
+

@@ -37,6 +37,8 @@
       <th>Ciudad</th>
       <th>País</th>
       <th>Institución</th>
+      <th>Tags</th>
+
                   </tr>
                 </thead>
                 <tbody>
@@ -51,7 +53,9 @@
         <td><%= admin_pet.region %></td>
         <td><%= admin_pet.city %></td>
         <td><%= admin_pet.country %></td>
-                <td><%= admin_pet.tag_list.map {|t| link_to t, tag_path(t)}.join (',')%></td>
+        <td><%= admin_pet.institution%></td>
+        <td><%= admin_pet.tag_list %></td>
+
 
 
       
