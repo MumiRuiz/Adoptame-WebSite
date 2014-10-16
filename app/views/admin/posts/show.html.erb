@@ -1,9 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Content:</strong>
-  <%= @admin_post.content %>
-</p>
+
 
 <p>
   <strong>Nombre:</strong>
@@ -11,14 +8,19 @@
 </p>
 
 <p>
-  <strong>Month:</strong>
+  <strong>Contenido:</strong>
+  <%= @admin_post.content %>
+</p>
+
+<p>
+  <strong>Mes:</strong>
   <%= @admin_post.month %>
 </p>
 
 <p>
-  <strong>Day:</strong>
+  <strong>Dia:</strong>
   <%= @admin_post.day %>
 </p>
 
-<%= link_to 'Edit', edit_admin_post_path(@admin_post) %> |
-<%= link_to 'Back', admin_posts_path %>
+<%= link_to 'Editar', edit_admin_post_path(@admin_post) %> |
+<%= link_to 'Atrás', admin_posts_path %>
