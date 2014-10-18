@@ -1,6 +1,5 @@
 <%= form_for(@admin_pet) do |f| %>
-<% tag_cloud Pet.tag_counts, %w[s m l] do |tag, css_class| %>
-<%= link_to tag.name, tag_path(tag.name), class: css_class %>
+
   <% if @admin_pet.errors.any? %>
 
 
