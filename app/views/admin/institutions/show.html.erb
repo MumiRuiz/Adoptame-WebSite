@@ -1,15 +1,15 @@
-  <!-- Page Heading -->
-      <section class="page-heading">
+
+<section class="page-heading">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h1>Instituciones</h1>
+              <h1>Fundaciones</h1>
             </div>
             <div class="col-md-6">
               <ul class="breadcrumb">
-                <li><a href="/">Inicio</a></li>
-                <li><a href="about">¿Quiénes Somos?</a></li>
-                <li class="active">Instituciones</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Pages</a></li>
+                <li class="active">Team Member</li>
               </ul>
             </div>
           </div>
@@ -17,8 +17,47 @@
       </section>
       <!-- Page Heading / End -->
 
-      <section class="page-content">
+<section class="page-content">
         <div class="container">
+
+          <div class="row">
+            <div class="col-md-5">
+              <figure class="alignnone">
+                <img src="http://placehold.it/470x470" alt="">
+              </figure>
+            </div>
+            <div class="col-md-7">
+              <div class="spacer visible-sm visible-xs"></div>
+              <div class="team-single-head">
+                <h2><%= @admin_institution.name %><small>/
+                 <%= @admin_institution.manager %></small></h2>
+              </div>
+              <h5>Short Info</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisi ac mi malesuada vestibulum. Phasellus tempor nunc eleifend cursus molestie. Mauris lectus arcu, pellentesque at sodales sit amet, condimentum id nunc. Aliquam tincidunt a sapien nec faucibus. Maecenas tempus quam at pellentesque laoreet. Fusce ullamcorper est a ultricies vestibulum. Nullam vitae ultrices sapien.</p>
+
+              <p>Donec ornare mattis suscipit. Praesent fermentum accumsan vulputate. Sed velit nulla, sagittis non erat id, dictum vestibulum ligula. Maecenas sed enim sem. Etiam</p>
+
+              <h5>Profile</h5>
+
+              <dl class="dl-horizontal">
+                <dt>Email</dt>
+                <dd><a href="#"><%= @admin_institution.email %></a></dd>
+                <dt>Website</dt>
+                <dd><a href="#"> <%= @admin_institution.website %></a></dd>
+                <dt>País</dt>
+                <dd><%= @admin_institution.country %>
+                    <%= @admin_institution.region %>
+                    <%= @admin_institution.city %></dd>
+              </dl>
+            </div>
+          </div>
+                 
+
+<%= link_to 'Editar', edit_admin_institution_path(@institution) %> |
+<%= link_to 'Atrás', admin_institutions_path %>
+           </div>
+            </section>
+
 
 <p id="notice"><%= notice %></p>
 
@@ -38,8 +77,15 @@
 </p>
 
 <p>
-  <strong>Contraseña:</strong>
+  <strong>Password:</strong>
   <%= @admin_institution.password %>
+</p>
+
+<p>
+  <strong>Ubicación:</strong>
+  <%= @admin_institution.country %>
+  <%= @admin_institution.region %>
+  <%= @admin_institution.city %>
 </p>
 
 <p>
@@ -48,28 +94,13 @@
 </p>
 
 <p>
-  <strong>País:</strong>
-  <%= @admin_institution.country %>
-</p>
-
-<p>
-  <strong>Región:</strong>
-  <%= @admin_institution.region %>
-</p>
-
-<p>
-  <strong>Ciudad:</strong>
-  <%= @admin_institution.city %>
-</p>
-
-<p>
-  <strong>Sitio Web:</strong>
+  <strong>Website:</strong>
   <%= @admin_institution.website %>
 </p>
+<p>
+  <strong>País</strong>
+<%= @admin_institution.country %>
+</p>
 
-<%= link_to 'Editar', edit_admin_institution_path(@admin_institution) %> |
-<%= link_to 'Atrás', admin_institutions_path %>
+  
 
-</div >
-
-</section>

@@ -80,6 +80,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def institution_params
-      params.require(:institution).permit(:name, :username, :email, :password, :location, :website,:country,:region, :city, :logo, :tag_list)
+      params.require(:institution).permit(:name, :username, :email, :password, :location, :website,:country,:region, :city, :logo, :description, :tag_list)
     end
 end

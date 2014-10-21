@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141016010239) do
+ActiveRecord::Schema.define(version: 20141020235044) do
 
   create_table "active_admin_comments", force: true do |t|
     t.string   "namespace"
@@ -64,6 +64,7 @@ ActiveRecord::Schema.define(version: 20141016010239) do
     t.integer  "logo_file_size"
     t.datetime "logo_updated_at"
     t.integer  "nit"
+    t.string   "description"
   end
 
   create_table "pets", force: true do |t|
