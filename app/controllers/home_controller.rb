@@ -7,6 +7,8 @@ class HomeController < ApplicationController
   def index
     @posts = Post.all
     @pets = Pet.all.limit(4)
+    @search = Pet.ransack(params[:q])
+        @pets = @search.result
   end
 
   # GET /posts/1

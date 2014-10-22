@@ -6,19 +6,41 @@ class PetsController < ApplicationController
   # GET /pets.json
   def index
    
-    @pets = Pet.all
+      # @pets = Pet.all
+      # if params[:tag]
+      #   @pets = Pet.tagged_with(params[:tag])
+      # else
+      #   @pets = Pet.all
+      # end
+
+      # def index
+      # @search = Pet.search(params[:q])
+      # @pets = @search.result
+      # end
+
+       @search = Pet.ransack(params[:q])
+        @pets = @search.result
+
+        
   
   end
+
+   
 
   # GET /pets/1
   # GET /pets/1.json
   def show
+
+
   end
 
   # GET /pets/new
   def new
     @pet = Pet.new
+<<<<<<< HEAD
     # @institutions = Institution.all.map { |institution| [institution.name, institution.id] } 
+=======
+>>>>>>> 13e0416f5aeed11efa1aaad8d27c820299bf0a36
   end
 
   # GET /pets/1/edit
@@ -76,14 +98,16 @@ def preview
    end
 end
 
+ def search
+    @pets = Pet.tagged_with(params[:search])
+    
+    if @pets.empty?
+      redirect_to home_index_path, alert: 'No se encontraron restaurantes con los criterios de busqueda ingresados. Por favor intente con otra palabra.' 
+    end
+  end
 
 
-
-
-
-
-
-  private
+private
     # Use callbacks to share common setup or constraints between actions.
     def set_pet
       @pet = Pet.find(params[:id])

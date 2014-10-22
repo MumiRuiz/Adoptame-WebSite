@@ -17,148 +17,60 @@
               </li>
             </ul>
 
+            
+
+
+
            <div class="search-box .col-xs-,  .col-sm-,  .col-md-,  .col-lg-">
+       
           <h2>Busca una mascota</h2>
-          <form action="#" method="POST" role="form">
-            <div class="form-group">
-              <div class="select-style">
-                <select name="post[country]">
-                  <option>PAIS</option>
-                  <option value = "Colombia">Colombia</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group .col-xs-,  .col-sm-,  .col-md-,  .col-lg-" >
-              <div class="select-style">
-                <select name="post[region]">
-                  <option>DEPARTAMENTO</option>
-                          <option value = "Amazonas">Amazonas</option>
-                          <option value = "Antioquia">Antioquia</option>
-                          <option value = "Arauca">Arauca</option>
-                          <option value = "Atlántico">Atlántico</option>
-                          <option value = "Bolívar">Bolívar</option>
-                          <option value = "Boyacá">Boyacá</option>
-                          <option value = "Caldas">Caldas</option>
-                          <option value = "Caquetá">Caquetá</option>
-                          <option value = "Casanare">Casanare</option>
-                          <option value = "Cauca">Cauca</option>
-                          <option value = "Cesar">Cesar</option>
-                          <option value = "Chocó">Chocó</option>
-                          <option value = "Córdoba">Córdoba</option>
-                          <option value = "Cundinamarca">Cundinamarca</option>
-                          <option value = "Guainía">Guainía</option>
-                          <option value = "Guaviare">Guaviare</option>
-                          <option value = "Huila">Huila</option>
-                          <option value = "La Guajira">La Guajira</option>
-                          <option value = "Magdalena">Magdalena</option>
-                          <option value = "Meta">Meta</option>
-                          <option value = "Nariño">Nariño</option>
-                          <option value = "Norte de Santander">Norte de Santander</option>
-                          <option value = "Putumayo">Putumayo</option>
-                          <option value = "Quindío">Quindío</option>
-                          <option value = "Risaralda">Risaralda</option>
-                          <option value = "San Andrés y Providencia">San Andrés y Providencia</option>
-                          <option value = "Santander">Santander</option>
-                          <option value = "Sucre">Sucre</option>
-                          <option value = "Tolima">Tolima</option>
-                          <option value = "Valle del Cauca">Valle del Cauca</option>
-                          <option value = "Vaupés">Vaupés</option>
-                          <option value = "Vichada">Vichada</option>
-                </select>
-              </div>
+             <%= search_form_for  @search do |f|%>            
+           
+
+            <div>
+               
+                <%= f.text_field :city_cont, class: "form-control", placeholder: "Escribe tu ciudad " %>
             </div>
 
-            <div class="select-style">
-                <select name="post[city]">
-                  <option>CIUDAD</option>
-                          <option value = "Arauca">Arauca</option>
-                          <option value = "Armenia">Armenia</option>
-                          <option value = "Barranquilla">Barranquilla</option>
-                          <option value = "Bogotá">Bogotá</option>
-                          <option value = "Bucaramanga">Bucaramanga</option>
-                          <option value = "Cali">Cali</option>
-                          <option value = "Cartagena de Indias">Cartagena de Indias</option>
-                          <option value = "Cucutá">Cucutá</option>
-                          <option value = "Florencia">Florencia</option>
-                          <option value = "Ibagué">Ibagué</option>
-                          <option value = "Inírida">Inírida</option>
-                          <option value = "Leticia">Leticia</option>
-                          <option value = "Manizalez">Manizalez</option>
-                          <option value = "Medellín">Medellín</option>
-                          <option value = "Mitú">Mitú</option>
-                          <option value = "Mocoa">Mocoa</option>
-                          <option value = "Montería">Montería</option>
-                          <option value = "Neiva">Neiva</option>
-                          <option value = "Pasto">Pasto</option>
-                          <option value = "Pereira">Pereira</option>
-                          <option value = "Popayán">Popayán</option>
-                          <option value = "Puerto Carreño">Puerto Carreño</option>
-                          <option value = "Quibdó">Quibdó</option>
-                          <option value = "Riohacha">Riohacha</option>
-                          <option value = "San Andrés">San Andrés</option>
-                          <option value = "San José del Guaviare">San José del Guaviare</option>
-                          <option value = "Santa Marta">Santa Marta</option>
-                          <option value = "Sincelejo">Sincelejo</option>
-                          <option value = "Tunja">Tunja</option>
-                          <option value = "Valledupar">Valledupar</option>
-                          <option value = "Villavicencio">Villavicencio</option>
-                          <option value = "Yopal">Yopal</option>
-                </select>
+            <div >
+               
+                <%= f.text_field :kind_cont, class: "form-control", placeholder: "Escribe perro o gato " %>
             </div>
 
-            <div class="select-style">
-                <select class="form-control">
-                  <option>TIPO DE MASCOTA</option>
-                  <option value = "Perro">Perro</option>
-                  <option value = "Gato" >Gato</option>
-                  <option value = "Cualquiera">Cualquiera</option>
-                </select>
+            <div>
+               
+                <%= f.text_field :gender_cont, class: "form-control", placeholder: "Escribe hembra o macho " %>
             </div>
 
-            <div class="select-style">
-                <select class="form-control">
-                  <option>GÉNERO</option>
-                  <option  value = "Macho">Macho</option>
-                  <option  value = "Hembra">Hembra</option>
-                  <option  value = "Cualquiera">Cualquiera</option>
-                </select>
+            <div>
+               
+                <%= f.text_field :size_cont, class: "form-control", placeholder: "Escribe el Tamaño pequeño, mediano, grande " %>
             </div>
 
-            <div class="select-style">
-                <select class="form-control">
-                  <option>TAMAÑO</option>
-                  <option value = "Pequeño">Pequeño</option>
-                  <option value = "Mediano">Mediano</option>
-                  <option value = "Grande">Grande</option>
-                  <option value = "Extra Grande">Extra Grande</option>
-                  <option value = "Cualquiera">Cualquiera</option>
-                </select>
+            <div >
+               
+                <%= f.text_field :age_cont, class: "form-control", placeholder: "Escribe la edad en meses" %>
             </div>
+               
 
-            <div class="select-style">
-                <select class="form-control">
-                  <option>EDAD</option>
-                  <option value = "Cachorro">Cachorro</option>
-                  <option value = "Adulto">Adulto</option>
-                  <option value = "Senior">Senior</option>
-                  <option value = "Cualquiera">Cualquiera</option>
-                </select>
-            </div>
-               <a href="http://www.adoptame.co/static_pages/comming">
-                <button type="submit" class="btn btn-success">Search</button>
+                <div class="actions"><%= f.submit "search",  class: "btn btn-success"%></div>
+
 
               </a>
-              </form>
+              <%end%>
             </div>
           </div>
         </div>
+        
       </section>
       <!-- Slider / End -->
+
+
 
       <!-- Page Content -->
       <section class="page-content">
         <div class="container">
-
+          
           <!-- Light Section -->
           <section class="section-light section-nomargin">
             <div class="row">
