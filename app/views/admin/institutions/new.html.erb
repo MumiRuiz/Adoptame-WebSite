@@ -98,18 +98,19 @@
                   <br />
 
                  <fieldset>
-                  <label>País <span class="required"></span></label>
-                  <div>
-                 <%= select_tag(:country, options_for_select(['Colombia', 'Colombia']))%>
+                  <div class="field">
+                    <%= f.label :country, "País" %><br />
+                   <select name="institution[country]">
+                    <option value = "Colombia">Colombia</option>
+                   </select>
                   </div>
                 </fieldset>
-              <br />
-               
-  
- 
+                  <br />
+
 <fieldset>
-<label>Región<span class="required"></span></label><br />
-    <select>
+  <div class="field">
+    <%= f.label :region, "Región" %><br />
+    <select name="institution[region]">
       <option value = "Amazonas">Amazonas</option>
       <option value = "Antioquia">Antioquia</option>
       <option value = "Arauca">Arauca</option>
@@ -143,12 +144,14 @@
       <option value = "Vaupés">Vaupés</option>
       <option value = "Vichada">Vichada</option>
     </select>
-  </fieldset>
-  <br>
+  </div>
+</fieldset>
+<br />
 
-  <fieldset>
-<label>Ciudad<span class="required"></span></label><br />
-    <select>
+<fieldset>
+  <div class="field">
+    <%= f.label :city, "Ciudad" %><br />
+    <select name="institution[city]">
       <option value = "Arauca">Arauca</option>
       <option value = "Armenia">Armenia</option>
       <option value = "Barranquilla">Barranquilla</option>
@@ -182,9 +185,16 @@
       <option value = "Villavicencio">Villavicencio</option>
       <option value = "Yopal">Yopal</option>
     </select>
-  </fieldset>
-
+  </div>
+</fieldset>
 <br />
+
+<div class="field">
+  <%= f.label :tag_list, "Tags (separated by commas)" %><br />
+  <%= f.text_field :tag_list %>
+</div>
+
+
         <div class="field account-sign-in">
                     <p>
                       
