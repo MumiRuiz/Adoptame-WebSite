@@ -37,10 +37,7 @@ class PetsController < ApplicationController
   # GET /pets/new
   def new
     @pet = Pet.new
-<<<<<<< HEAD
-    # @institutions = Institution.all.map { |institution| [institution.name, institution.id] } 
-=======
->>>>>>> 13e0416f5aeed11efa1aaad8d27c820299bf0a36
+
   end
 
   # GET /pets/1/edit
