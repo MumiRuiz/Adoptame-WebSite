@@ -54,9 +54,9 @@ group :production do
 end
 gem 'activeadmin', github: 'activeadmin'
 
-gem 'acts-as-taggable-on'
+gem 'acts-as-taggable-on', '~> 3.4'
 
- 
+gem 'ransack'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

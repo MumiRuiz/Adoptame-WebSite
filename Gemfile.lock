@@ -205,7 +205,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin!
-  acts-as-taggable-on
+  acts-as-taggable-on (~> 3.4)
   aws-sdk
   coffee-rails (~> 4.0.0)
   devise
@@ -216,6 +216,7 @@ DEPENDENCIES
   pg (= 0.15.1)
   rails (= 4.0.2)
   rails_12factor (= 0.0.2)
+  ransack
   sass-rails (~> 4.0.0)
   sdoc
   sqlite3
