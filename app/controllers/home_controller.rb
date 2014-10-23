@@ -6,9 +6,9 @@ class HomeController < ApplicationController
   # GET /posts.json
   def index
     @posts = Post.all
-    @pets = Pet.all.limit(4)
+    @pets = Pet.limit(4)
     @search = Pet.ransack(params[:q])
-        @pets = @search.result
+    @pets = @search.result
   end
 
   # GET /posts/1
