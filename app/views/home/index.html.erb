@@ -43,27 +43,27 @@
 
 
 
-            <div>
-               <%= f.select :city_eq, options_for_select([['Select', ''], ['Arauca'], ['Armenia'], ['Barranquilla'], ['Bogotá'], ['Bogotá'], ['Bucaramanga'], ['Cali'], ['Cartagena de Indias'], ['Cucutá'], ['Florencia'], ['Ibagué'], ['Inírida'], ['Leticia'], ['Manizales'], ['Medellín'], ['Mitú'], ['Mocoa'], ['Montería'], ['Neiva'], ['Pasto'], ['Pereira'], ['Popayán'], ['Puerto Carreño'], ['Quibdó'], ['Riohacha'], ['San Andrés'], ['San José del Guaviare'], ['Santa Marta'], ['Sincelejo'], ['Tunja'], ['Valledupar'], ['Villavicencio'], ['Yopal']], :selected => :city) %>
+            <div class= "select-style" >
+               <%= f.select :city_eq, options_for_select([['Selecciona la Ciudad ', ''], ['Arauca'], ['Armenia'], ['Barranquilla'], ['Bogotá'], ['Bogotá'], ['Bucaramanga'], ['Cali'], ['Cartagena de Indias'], ['Cucutá'], ['Florencia'], ['Ibagué'], ['Inírida'], ['Leticia'], ['Manizales'], ['Medellín'], ['Mitú'], ['Mocoa'], ['Montería'], ['Neiva'], ['Pasto'], ['Pereira'], ['Popayán'], ['Puerto Carreño'], ['Quibdó'], ['Riohacha'], ['San Andrés'], ['San José del Guaviare'], ['Santa Marta'], ['Sincelejo'], ['Tunja'], ['Valledupar'], ['Villavicencio'], ['Yopal']], :selected => :city) %>
                 <%#= f.text_field :city_cont, class: "form-control", placeholder: "Escribe tu ciudad " %>
             </div>
 
-            <div >
+            <div class= "select-style" >
                
-                <%= f.select :kind_eq, options_for_select([['Select', ''], ['Perro'], ['Gato']], :selected => :kind) %>
+                <%= f.select :kind_eq, options_for_select([['Selecciona tipo de mascota', ''], ['Perro'], ['Gato']], :selected => :kind) %>
+            </div>
+
+            <div class= "select-style">
+               
+               <%= f.select :gender_eq, options_for_select([['Selecciona el genero de la mascota', ''], ['Macho'], ['Hembra']], :selected => :gender) %>
+            </div>
+
+            <div class= "select-style">
+               
+                <%= f.select :size_eq, options_for_select([['Selecciona el tamaño', ''], ['Pequeño'], ['Mediano'], ['Pequeño'], ['Grande'], ['Extra Grande']], :selected => :size), class: "select-style" %>
             </div>
 
             <div>
-               
-               <%= f.select :gender_eq, options_for_select([['Select', ''], ['Macho'], ['Hembra']], :selected => :gender) %>
-            </div>
-
-            <div>
-               
-                <%= f.select :size_eq, options_for_select([['Select', ''], ['Pequeño'], ['Mediano'], ['Pequeño'], ['Grande'], ['Extra Grande']], :selected => :size) %>
-            </div>
-
-            <div >
                
                 <%= f.text_field :age_cont, class: "form-control", placeholder: "Escribe la edad en meses" %>
             </div>
