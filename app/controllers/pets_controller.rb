@@ -18,9 +18,9 @@ class PetsController < ApplicationController
       # @pets = @search.result
       # end
 
-       @search = Pet.ransack(params[:q])
-        @pets = @search.result
-
+      @search = Pet.ransack(params[:q])
+      @pets = @search.result
+      
         
   
   end

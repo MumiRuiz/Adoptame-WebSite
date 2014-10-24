@@ -1,5 +1,6 @@
 class Pet < ActiveRecord::Base
 
+
 	#attr_accessible :content, :name, :tag_list
 	#acts_as_taggable
 

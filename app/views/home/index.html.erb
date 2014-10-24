@@ -26,23 +26,6 @@
           <h2>Busca una mascota</h2>
              <%= search_form_for  @search do |f|%>            
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <div class= "select-style" >
                <%= f.select :city_eq, options_for_select([['Selecciona la Ciudad ', ''], ['Arauca'], ['Armenia'], ['Barranquilla'], ['Bogotá'], ['Bogotá'], ['Bucaramanga'], ['Cali'], ['Cartagena de Indias'], ['Cucutá'], ['Florencia'], ['Ibagué'], ['Inírida'], ['Leticia'], ['Manizales'], ['Medellín'], ['Mitú'], ['Mocoa'], ['Montería'], ['Neiva'], ['Pasto'], ['Pereira'], ['Popayán'], ['Puerto Carreño'], ['Quibdó'], ['Riohacha'], ['San Andrés'], ['San José del Guaviare'], ['Santa Marta'], ['Sincelejo'], ['Tunja'], ['Valledupar'], ['Villavicencio'], ['Yopal']], :selected => :city) %>
                 <%#= f.text_field :city_cont, class: "form-control", placeholder: "Escribe tu ciudad " %>
@@ -94,7 +77,7 @@
                 <h2 class="with-subtitle" data-animation="fadeInUp" data-animation-delay="0">Nuevas Mascotas <small data-animation="fadeInUp" data-animation-delay="100">Mascotas en adopción</small></h2>
                 <div class="row">
                  
-                  <% @pets.each do |pet| %>
+                  <% @pets.limit(4).each do |pet| %>
                   <div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="0">
                     <div class="job-listing-box">
                       <%= link_to pet_path(pet) do %> 
@@ -110,7 +93,7 @@
                         <ul class="meta">
                           <li class="category"><%= pet.kind %></li>
                           <li class="location"><a href="#">  <%=pet.city %> |  <%= pet.region %> |   <%= pet.country %></a></li>
-                          <li class="date">Posted 1 day ago</li>
+                          <li class="date">Posted <%= time_ago_in_words(pet.created_at) %> ago</li>
                         </ul>
                       </footer>
                       <% end %>

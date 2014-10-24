@@ -31,6 +31,11 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
+#PAGINATION
+
+# gem 'will_paginate'        
+# gem 'will_paginate-bootstrap'
+
 # BOOTSTRAP
 
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
