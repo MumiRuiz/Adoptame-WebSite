@@ -20,7 +20,7 @@ class PetsController < ApplicationController
 
       @search = Pet.ransack(params[:q])
       @pets = @search.result
-      
+      @institution = Institution.name
         
   
   end

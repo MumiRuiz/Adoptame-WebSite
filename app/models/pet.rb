@@ -11,8 +11,11 @@ class Pet < ActiveRecord::Base
   validates_attachment_content_type :photo, :presence => true, :size => { :in => 0..10.megabytes }, :content_type => /\Aimage\/.*\Z/
 
   belongs_to :user
+  validates_presence_of :user
+  has_one :institution
   belongs_to :institution
 
+accepts_nested_attributes_for :institution
  #  attr_accessible :tag_list 
 
 	acts_as_taggable

@@ -93,6 +93,7 @@
                         <ul class="meta">
                           <li class="category"><%= pet.kind %></li>
                           <li class="location"><a href="#">  <%=pet.city %> |  <%= pet.region %> |   <%= pet.country %></a></li>
+                          <li class="location"><%=pet.institution %></li>
                           <li class="date">Posted <%= time_ago_in_words(pet.created_at) %> ago</li>
                         </ul>
                       </footer>

@@ -7,5 +7,5 @@ has_attached_file :logo, :styles => { :large => "708x671#", :medium => "470x470#
 	acts_as_taggable
 
 has_many :pets
-validates_associated :pets
+accepts_nested_attributes_for :pets
 	end
