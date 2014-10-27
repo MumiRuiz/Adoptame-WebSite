@@ -1,3 +1,13 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
 <!-- Main -->
     <div class="main" role="main">
 
@@ -95,6 +105,7 @@
                           <li class="location"><a href="#">  <%=pet.city %> |  <%= pet.region %> |   <%= pet.country %></a></li>
                           <li class="location"><%=pet.institution %></li>
                           <li class="date">Posted <%= time_ago_in_words(pet.created_at) %> ago</li>
+                          <div class="fb-like" data-href="https://www.facebook.com/AdoptaMeColombia" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
                         </ul>
                       </footer>
                       <% end %>

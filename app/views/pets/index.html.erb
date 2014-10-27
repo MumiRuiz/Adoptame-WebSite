@@ -1,3 +1,12 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- Main -->
     <div class="main" role="main">
 
@@ -36,7 +45,11 @@
                 <figure class="team-thumb">
                  <%= image_tag pet.photo.url(:thumb) %>
                 
-                  <div class="overlay"></div>
+                  <div class="overlay">
+
+
+
+                  </div>
                    
                 </figure>
 
@@ -46,7 +59,9 @@
                      <i class="entypo location"></i> <%= pet.city %><br />
                      <i class="entypo vcard"></i> <%= pet.age %> Meses<br />
                      <i class="entypo direction"></i><%= pet.gender %><br />
-                     <i class="entypo direction"></i><%= pet.size %>
+                     <i class="entypo direction"></i><%= pet.size %> <br />
+
+                     <div class="fb-like" data-href="https://www.facebook.com/AdoptaMeColombia" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
                          
                 </header>
                 <div class="team-excerpt">
