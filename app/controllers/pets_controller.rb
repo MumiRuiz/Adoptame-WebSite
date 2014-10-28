@@ -20,7 +20,7 @@ class PetsController < ApplicationController
 
       @search = Pet.ransack(params[:q])
       @pets = @search.result
-      @institution = Institution.name
+      @institution = Institution.all
         
   
   end
@@ -37,7 +37,7 @@ class PetsController < ApplicationController
   # GET /pets/new
   def new
     @pet = Pet.new
-
+    @institution = Institution.all
   end
 
   # GET /pets/1/edit
