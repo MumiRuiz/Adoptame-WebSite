@@ -1,30 +1,3 @@
-<!---<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script> -->
-
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '757271940987937',
-      xfbml      : true,
-      version    : 'v2.1'
-    });
-  };
-
- (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) return;
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/es_LA/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-</script>
-
 
 <!-- Main -->
     <div class="main" role="main">
@@ -114,7 +87,8 @@
                          <%= image_tag pet.photo.url(:thumb) %>
                       </figure>
                       <div class="job-listing-body">
-                        <h4 class="name"><a href="job-profile.html"><%= pet.name %></a></h4>
+                        <h4 class="name">
+                          <a href="job-profile.html"><%= pet.name %></a></h4>
                         <p><%= pet.story %> </p>
                       </div>
                       <footer class="job-listing-footer">
@@ -123,14 +97,6 @@
                           <li class="location"><a href="#">  <%=pet.city %> |  <%= pet.region %> |   <%= pet.country %></a></li>
                           <li class="location"><%=pet.institution %></li>
                           <li class="date">Posted <%= time_ago_in_words(pet.created_at) %> ago</li>
-                          <!-- <div class="fb-like" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div> -->
-
-                          <div
-                            class="fb-like"
-                            data-share="true"
-                            data-width="450"
-                            data-show-faces="true">
-                          </div>
                           
                         </ul>
                       </footer>
