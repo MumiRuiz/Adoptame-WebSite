@@ -51,11 +51,11 @@ class PetsController < ApplicationController
 
     respond_to do |format|
       if @pet.save
-        format.html { redirect_to @pet, notice: 'Pet was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @pet }
+        format.html { redirect_to @admin_pet, notice: 'Pet was successfully created.' }
+        format.json { render action: 'show', status: :created, location: @admin_pet }
       else
         format.html { render action: 'new' }
-        format.json { render json: @pet.errors, status: :unprocessable_entity }
+        format.json { render json: @admin_pet.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -65,11 +65,11 @@ class PetsController < ApplicationController
   def update
     respond_to do |format|
       if @pet.update(pet_params)
-        format.html { redirect_to @pet, notice: 'Pet was successfully updated.' }
+        format.html { redirect_to @admin_pet, notice: 'Pet was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
-        format.json { render json: @pet.errors, status: :unprocessable_entity }
+        format.json { render json: @admin_pet.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -79,7 +79,7 @@ class PetsController < ApplicationController
   def destroy
     @pet.destroy
     respond_to do |format|
-      format.html { redirect_to pets_url }
+      format.html { redirect_to admin_pets_url }
       format.json { head :no_content }
     end
   end

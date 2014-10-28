@@ -31,11 +31,11 @@ class InstitutionsController < ApplicationController
 
     respond_to do |format|
       if @institution.save
-        format.html { redirect_to @institution, notice: 'Institution was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @institution }
+        format.html { redirect_to @admin_institution, notice: 'Institution was successfully created.' }
+        format.json { render action: 'show', status: :created, location: @admin_institution }
       else
         format.html { render action: 'new' }
-        format.json { render json: @institution.errors, status: :unprocessable_entity }
+        format.json { render json: @admin_institution.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -45,11 +45,11 @@ class InstitutionsController < ApplicationController
   def update
     respond_to do |format|
       if @institution.update(institution_params)
-        format.html { redirect_to @institution, notice: 'Institution was successfully updated.' }
+        format.html { redirect_to @admin_institution, notice: 'Institution was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
-        format.json { render json: @institution.errors, status: :unprocessable_entity }
+        format.json { render json: @admin_institution.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -59,7 +59,7 @@ class InstitutionsController < ApplicationController
   def destroy
     @institution.destroy
     respond_to do |format|
-      format.html { redirect_to institutions_url }
+      format.html { redirect_to admin_institutions_url }
       format.json { head :no_content }
     end
   end
