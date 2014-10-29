@@ -862,20 +862,20 @@ body.boxed .site-wrapper {
 /* Search Box */
 .search-box {
   background: #454545;
-  background: rgba(69, 69, 69, 0.95);
+  background: transparent;
   position: absolute;
   z-index: 2;
-  right: 24px;
-  top: 12px;
+  right: -7px;
+  top: 74px;
   bottom: 9px;
   padding: 30px;
   width: 344px;
 }
 .search-box h2 {
   font-size: 30px;
-  line-height: 36px;
-  color: #fff;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  line-height: 29px;
+  color: #9CDC2E;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 1.2);
 }
 @media (min-width: <480px) and (max-width: 1199px) {
   .search-box h2 {
@@ -1005,7 +1005,7 @@ body.boxed .site-wrapper {
 .section {
   margin: 0 -100%;
   padding: 75px 100%;
-  background-image: image-url("section-bg.jpg");
+  background-image: image-url("logo_dog.png");
   background-repeat: repeat-x;
   background-position: 0 0;
   background-color: #fafafa;
