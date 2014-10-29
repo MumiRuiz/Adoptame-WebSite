@@ -34,18 +34,18 @@ class PetsController < ApplicationController
 
   end
 
-  # GET /pets/new
+  # GET admin/pets/new
   def new
     @pet = Pet.new
     @institution = Institution.all
   end
 
-  # GET /pets/1/edit
+  # GET admin/pets/1/edit
   def edit
   end
 
-  # POST /pets
-  # POST /pets.json
+  # POST admin/pets
+  # POST admin/pets.json
   def create
     @pet = Pet.new(pet_params)
 
@@ -60,8 +60,8 @@ class PetsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /pets/1
-  # PATCH/PUT /pets/1.json
+  # PATCH/PUT admin/pets/1
+  # PATCH/PUT admin/pets/1.json
   def update
     respond_to do |format|
       if @pet.update(pet_params)
@@ -74,8 +74,8 @@ class PetsController < ApplicationController
     end
   end
 
-  # DELETE /pets/1
-  # DELETE /pets/1.json
+  # DELETE admin/pets/1
+  # DELETE admin/pets/1.json
   def destroy
     @pet.destroy
     respond_to do |format|

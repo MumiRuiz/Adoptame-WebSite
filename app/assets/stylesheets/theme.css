@@ -866,8 +866,8 @@ body.boxed .site-wrapper {
   position: absolute;
   z-index: 2;
   right: 24px;
-  top: 24px;
-  bottom: 24px;
+  top: 12px;
+  bottom: 9px;
   padding: 30px;
   width: 344px;
 }
