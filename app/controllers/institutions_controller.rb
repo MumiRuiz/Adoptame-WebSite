@@ -76,7 +76,8 @@ end
 
   private
 
-  #Hide admin view for users and redirect to public paths
+
+   #Hide admin view for users and redirect to public path
    def authorize_user
     
       if current_user.nil?
