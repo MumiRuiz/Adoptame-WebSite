@@ -1,6 +1,6 @@
 class InstitutionsController < ApplicationController
   before_action :set_institution, only: [:show, :edit, :update, :destroy]
-  before_action :authorize_user
+ 
   
 
   # GET /institutions
@@ -77,15 +77,7 @@ end
   private
 
 
-   #Hide admin view for users and redirect to public path
-   def authorize_user
-    
-      if current_user.nil?
-        redirect_to home_index_path 
-      else
-        redirect_to institutions_path  
-      end
-    end
+   
 
     # Use callbacks to share common setup or constraints between actions.
     def set_institution
