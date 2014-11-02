@@ -1,5 +1,505 @@
-<p>Welcome <%= @email %>!</p>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <!-- Facebook sharing information tags -->
+        <meta property="og:title" content="*|MC:SUBJECT|*">
+        
+        <title>*|MC:SUBJECT|*</title>
+		
+	<style type="text/css">
+		#outlook a{
+			padding:0;
+		}
+		body{
+			width:100% !important;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		body{
+			-webkit-text-size-adjust:none;
+		}
+		body{
+			margin:0;
+			padding:0;
+		}
+		img{
+			border:none;
+			height:auto;
+			line-height:100%;
+			margin:0;
+			outline:none;
+			padding:0;
+			text-decoration:none;
+		}
+		#backgroundTable{
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width:100% !important;
+		}
+	/*
+	@tab Page
+	@section heading 1
+	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+	@style heading 1
+	*/
+		h1,.h1{
+			/*@editable*/color:#303030;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:30px;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:100%;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2,.h2{
+			/*@editable*/color:#3F3F38;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:100%;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3,.h3{
+			/*@editable*/color:#286126;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:15px;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:100%;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+	@style heading 4
+	*/
+		h4,.h4{
+			/*@editable*/color:#ACACAC;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:14px;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:100%;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section preheader style
+	@tip Set the background color and border for your email's preheader area.
+	@theme page
+	*/
+		#templatePreheader{
+			/*@editable*/background-color:#a6ce39;
+			/*@editable*/border-bottom:none;
+		}
+	/*
+	@tab Header
+	@section preheader text
+	@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+	*/
+		.preheaderContent{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:10px;
+			/*@editable*/line-height:125%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section preheader link
+	@tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+	*/
+		.preheaderContent a:link,.preheaderContent a:visited,.preheaderContent a .yshortcuts {
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Header
+	@section header style
+	@tip Set the background color and borders for your email's header area.
+	@theme header
+	*/
+		#templateHeader{
+			/*@editable*/background-color:#F1F3E6;
+			/*@editable*/border-top:none;
+			/*@editable*/border-bottom:none;
+		}
+	/*
+	@tab Header
+	@section header text
+	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+	*/
+		.headerContent{
+			/*@editable*/color:#456144;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:13px;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:100%;
+			/*@editable*/padding:0;
+			/*@editable*/text-align:left;
+			/*@editable*/vertical-align:middle;
+		}
+	/*
+	@tab Header
+	@section header link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		.headerContent a:link,.headerContent a:visited,.headerContent a .yshortcuts {
+			/*@editable*/color:#456144;
+			/*@editable*/font-weight:bold;
+			/*@editable*/text-decoration:none;
+		}
+	/*
+	@tab Header
+	@section button style
+	@tip Set the styling for your email's button. Choose a style that draws attention.
+	*/
+		#templateButton{
+			/*@tab Header
+@section button style
+@tip Set the styling for your email's button. Choose a style that draws attention.*/-moz-border-radius:5px;
+			-webkit-border-radius:5px;
+			/*@editable*/background-color:#EA5D41;
+			border-radius:5px;
+		}
+	/*
+	@tab Header
+	@section button style
+	@tip Set the styling for your email's button. Choose a style that draws attention.
+	*/
+		#templateButtonContent,#templateButtonContent a:link,#templateButtonContent a:visited{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:13px;
+			/*@editable*/font-weight:bold;
+			line-height:150%;
+			text-align:center;
+			text-decoration:none;
+		}
+		#headerImage{
+			height:auto;
+			max-width:400px !important;
+		}
+	/*
+	@tab Body
+	@section body style
+	@tip Set the background color and borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/background-color:#F1F3E6;
+			/*@editable*/border-top:none;
+			/*@editable*/border-bottom:none;
+		}
+	/*
+	@tab Body
+	@section body text
+	@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+	@theme main
+	*/
+		.bodyContent{
+			/*@editable*/color:#303030;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:15px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section body link
+	@tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+	*/
+		.bodyContent a:link,.bodyContent a:visited,.bodyContent a .yshortcuts {
+			/*@editable*/color:#456144;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		.bodyContent img{
+			display:inline;
+			height:auto !important;
+			max-width:360px !important;
+		}
+	/*
+	@tab Sidebar
+	@section sidebar text
+	@tip Set the styling for your email's sidebar text. Choose a size and color that is easy to read.
+	@theme main
+	*/
+		.sidebarContent{
+			/*@editable*/color:#303030;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:13px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Sidebar
+	@section sidebar link
+	@tip Set the styling for your email's sidebar links. Choose a color that helps them stand out from your text.
+	*/
+		.sidebarContent a:link,.sidebarContent a:visited,.sidebarContent a .yshortcuts {
+			/*@editable*/color:#456144;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		.sidebarContent img{
+			display:inline;
+			height:auto !important;
+			max-width:200px !important;
+		}
+	/*
+	@tab Footer
+	@section footer style
+	@tip Set the background color and top border for your email's footer area.
+	@theme page
+	*/
+		body,#backgroundTable{
+			/*@editable*/background-color:#E8E8E0;
+		}
+	/*
+	@tab Footer
+	@section footer style
+	@tip Set the background color and top border for your email's footer area.
+	@theme footer
+	*/
+		#templateFooter{
+			/*@editable*/border-top:none;
+		}
+	/*
+	@tab Footer
+	@section footer text
+	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+	@theme footer
+	*/
+		.footerContent{
+			/*@editable*/color:#505050;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:11px;
+			/*@editable*/line-height:125%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section footer link
+	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+	*/
+		.footerContent a:link,.footerContent a:visited,.footerContent a .yshortcuts {
+			/*@editable*/color:#505050;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		.footerContent img{
+			display:inline;
+		}
+		#monkeyRewards img{
+			max-width:190px;
+		}
+</style></head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+            	<tr>
+                	<td align="center" valign="top">
+                        <!-- // Begin Template Preheader \\ -->
+                        <table border="0" cellpadding="10" cellspacing="0" width="100%" id="templatePreheader">
+                            <tr>
+                                <td align="center" valign="top">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="600">
+                                    	<tr>
+                                        	<td valign="top" class="preheaderContent" style="padding-right:20px" mc:edit="preheader_content"><span style="font-size:12px">Recibe un c&aacute;lido saludo de parte de todo el equipo Adopta-me.</span></td>
+                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+											<td valign="top" width="200" class="preheaderContent" mc:edit="preheader_link">No ves correctamente este e-mail?<br>
+<a href="*|ARCHIVE|*" target="_blank">Ver en tu navegador</a>.</td>
+											<!-- *|END:IF|* -->
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // End Template Preheader \\ -->
+                    	<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top" id="templateHeader" style="padding-top:20px; padding-bottom:20px;">
+                                    <!-- // Begin Template Header \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600">
+                                        <tr>
+                                            <td width="400" class="headerContent">
+                                            	<img src="https://gallery.mailchimp.com/66fb69b3437a81bc7c993dd50/images/074be75a-3cfa-4c9b-bdc9-94432f95b722.png" style="max-width:400px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowtext>
+                                            </td>
+                                            <td align="right" valign="middle" width="200" style="padding-left:20px;">
+                                                <table border="0" cellpadding="15" cellspacing="0" id="templateButton">
+                                                    <tr>
+                                                        <td align="center" valign="middle" id="templateButtonContent" style="padding-right:20px; padding-left:20px;" mc:edit="app_button"><%= link_to 'Confirma mi cuenta', confirmation_url(@resource, confirmation_token: @token) %></td>
+                                                    </tr>
+                                                </table>                                                        
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        	<td colspan="2" valign="top" style="padding-top:20px;">
+                                            	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;">
+                                                	<tr>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable>
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <img src="http://gallery.mailchimp.com/27aac8a65e64c994c4416d6b8/images/icon_sm_twitter.png" alt="Follow on Twitter" height="14" width="14">
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent" mc:edit="social_link00"><a href="https://twitter.com/Adoptame_co" target="_blank"><span style="color:#a6ce39">S&iacute;guenos en Twitter</span></a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable>
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <img src="http://gallery.mailchimp.com/27aac8a65e64c994c4416d6b8/images/icon_sm_facebook.png" alt="Friend on Facebook" height="14" width="14">
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent" mc:edit="social_link01"><a href="http//www.facebook.com/AdoptaMeColombia" target="_blank"><span style="color:#a6ce39">Queremos ser tus amigos en Facebook</span></a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable>
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <img src="http://gallery.mailchimp.com/27aac8a65e64c994c4416d6b8/images/icon_sm_forward.png" alt="Forward to Friend" height="14" width="14">
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent" mc:edit="social_link02"><a href="*|FORWARD|*" target="_blank"><span style="color:#a6ce39">Cu&eacute;ntale a un amigo</span></a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Header \\ -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+                                    	<tr>
+                                            <td align="center" valign="top" style="padding-top:20px; padding-bottom:40px;">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                	<tr>
+                                                    	<td valign="top" width="360">
+                                                        	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            	<tr mc:repeatable>
+                                                                	<td valign="top">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                        	<tr>
+                                                                            	<td valign="top">
+	                                                                                <img src="https://gallery.mailchimp.com/66fb69b3437a81bc7c993dd50/images/e91ae81b-8e12-4f75-b3aa-2f751f232303.jpg" style="max-width:360px;" mc:label="image" mc:edit="body_image00">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td valign="top" class="bodyContent" style="padding-top:20px;" mc:edit="body_content00"><h3><span style="color:#a6ce39">Gracias!</span></h3>
+Ahora eres parte de la soluci&oacute;n, por favor toma unos instantes para verificar tu cuenta.</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td width="40">
+                                                        	<br>
+                                                        </td>
+                                                        <td valign="top" width="200">
+                                                        	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            	<tr>
+                                                                	<td valign="top" class="sidebarContent" mc:edit="sidebar_content"><h2>Noticias</h2>
+&nbsp;
 
-<p>You can confirm your account email through the link below:</p>
+<h3><span style="color:#a6ce39">Rescatando un canino </span></h3>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>
+&nbsp;
+<h3><span style="color:#a6ce39">Recatando un felino</span></h3>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" id="templateFooter" style="padding-top:20px; padding-bottom:40px;">
+                        <!-- // Begin Template Footer \\ -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600">
+                            <tr>
+                                <td valign="top">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-right:20px;" mc:edit="footer"><em>Copyright &copy; 2014 Adopta-me, All rights reserved.</em><br>
+												<br>
+												<br>
+												<strong>Our mailing address is:</strong><br>
+												info@adoptame.co</td>
+                                            <td valign="top" width="200" id="monkeyRewards" class="footerContent" mc:edit="monkeyrewards">
+                                                *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" valign="middle" class="footerContent" style="padding-top:20px;" mc:edit="utility">
+												<a href="*|UNSUB|*">unsubscribe from this list</a> | <a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // End Template Footer \\ -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
 
-<p><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></p>
+

@@ -27,5 +27,20 @@ Micropost::Application.configure do
   config.assets.debug = true
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
 
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.smtp_settings = {
+  :address => "smtp.zoho.com",
+  :port => 465,
+  :domain => "adoptame.co",
+  :user_name => 'info@adoptame.co',
+  :password => 'adoptame',
+  :authentication => 'plain',
+  ssl:                    true,  
+  tls:                    true,  
+  enable_starttls_auto:   true,
+  :enable_starttls_auto => true
+  }
   
 end
