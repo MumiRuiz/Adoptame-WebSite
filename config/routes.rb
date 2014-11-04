@@ -3,6 +3,7 @@ Micropost::Application.routes.draw do
   # get "static_pages/comming"
   # resources :static_pages/comming
 
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   get "static_pages/about"
@@ -33,7 +34,7 @@ Micropost::Application.routes.draw do
 
   resources :institutions
 
-  devise_for :users
+  devise_for :users, controllers: {omniauth_callbacks: "omniauth_callbacks"}
   resources :posts
 
   resources :users

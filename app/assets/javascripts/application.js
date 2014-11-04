@@ -32,4 +32,3 @@
 //= require custom
 //= require turbolinks
 //= require_tree .
-

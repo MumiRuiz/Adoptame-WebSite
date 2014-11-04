@@ -7,6 +7,12 @@ gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
 gem 'devise'
+# OmniAuth
+gem 'omniauth', '~> 1.1.4'
+gem 'omniauth-twitter', '~> 1.0.0'
+gem 'omniauth-facebook', '~> 1.4.1'
+
+
 
 group :development do
   gem 'sqlite3'
